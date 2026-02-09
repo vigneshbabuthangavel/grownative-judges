@@ -2,8 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import { Storage } from '@google-cloud/storage';
 
+// Detect Vercel / serverless environment
+const IS_VERCEL = !!process.env.VERCEL;
+
 // Base directory for private assets (Server-Side Only)
-const PRIVATE_ASSETS_DIR = path.join(process.cwd(), 'private_assets');
+// On Vercel, we use /tmp as the only writable directory
+const PRIVATE_ASSETS_DIR = IS_VERCEL
+    ? path.join('/tmp', 'private_assets')
+    : path.join(process.cwd(), 'private_assets');
 
 // GCS Configuration
 const BUCKET_NAME = process.env.GCS_BUCKET_NAME;
@@ -80,9 +86,13 @@ export const AssetManager = {
                     console.log(`[AssetManager] 🟢 GCS CACHE HIT: Found ${imageFiles.length} images`);
                     const results = await Promise.all(imageFiles.map(async (file) => {
                         const [buffer] = await file.download();
-                        // Also Save Local for next time
-                        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-                        fs.writeFileSync(path.join(dir, path.basename(file.name)), buffer);
+                        // Also Save Local for next time (best effort)
+                        try {
+                            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                            fs.writeFileSync(path.join(dir, path.basename(file.name)), buffer);
+                        } catch (cacheError) {
+                            console.warn("[AssetManager] Local cache failed (skipping):", cacheError.message);
+                        }
                         return buffer.toString('base64');
                     }));
                     return results;
@@ -118,9 +128,13 @@ export const AssetManager = {
 
                 if (exists) {
                     const [buffer] = await file.download();
-                    // Sync local for next time
-                    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-                    fs.writeFileSync(filepath, buffer);
+                    // Sync local for next time (best effort)
+                    try {
+                        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                        fs.writeFileSync(filepath, buffer);
+                    } catch (cacheError) {
+                        console.warn("[AssetManager] Local cache sync failed (skipping):", cacheError.message);
+                    }
                     return buffer;
                 }
             }
@@ -142,10 +156,18 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const buffer = Buffer.from(base64Data, 'base64');
 
-            // 1. Save Local
-            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-            fs.writeFileSync(filepath, buffer);
-            console.log(`[AssetManager] 💾 Saved local asset: ${filepath}`);
+            // 1. Save Local (Best effort - crucial for local, secondary on Vercel)
+            try {
+                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                fs.writeFileSync(filepath, buffer);
+                console.log(`[AssetManager] 💾 Saved local asset: ${filepath}`);
+            } catch (saveError) {
+                if (IS_VERCEL) {
+                    console.warn(`[AssetManager] ⚠️ Local save skipped (Serverless): ${saveError.message}`);
+                } else {
+                    throw saveError;
+                }
+            }
 
             // 2. Upload to GCS
             if (storage && BUCKET_NAME) {
@@ -211,9 +233,13 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const buffer = Buffer.from(base64Data, 'base64');
 
-            // 1. Local
-            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-            fs.writeFileSync(filepath, buffer);
+            // 1. Local (Best effort)
+            try {
+                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                fs.writeFileSync(filepath, buffer);
+            } catch (saveError) {
+                console.warn("[AssetManager] Audio local save skipped:", saveError.message);
+            }
 
             // 2. GCS
             if (storage && BUCKET_NAME) {
@@ -249,9 +275,13 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const json = JSON.stringify(data, null, 2);
 
-            // 1. Local
-            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-            fs.writeFileSync(filepath, json);
+            // 1. Local (Best effort)
+            try {
+                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                fs.writeFileSync(filepath, json);
+            } catch (saveError) {
+                console.warn("[AssetManager] Log local save skipped:", saveError.message);
+            }
 
             // 2. GCS
             if (storage && BUCKET_NAME) {

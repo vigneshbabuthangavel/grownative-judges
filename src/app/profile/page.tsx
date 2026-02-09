@@ -213,7 +213,7 @@ export default function ProfilePage() {
               </Button>
             </Box>
 
-            <Box className="grid grid-cols-1 md:grid-cols-[1fr,auto] gap-4 items-start mt-6">
+            <Box className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start mt-6">
               <TextField
                 size="medium"
                 label="Type a custom name"
@@ -222,6 +222,17 @@ export default function ProfilePage() {
                 fullWidth
                 InputProps={{ className: "rounded-xl" }}
               />
+              <TextField
+                size="medium"
+                label="Set a 6-digit PIN"
+                value={pin}
+                onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 6))}
+                helperText="Required to access Parent Dashboard."
+                fullWidth
+                InputProps={{ className: "rounded-xl" }}
+              />
+            </Box>
+            <Box className="flex justify-end mt-4">
               <Button
                 variant="contained"
                 color="primary"
@@ -309,17 +320,11 @@ export default function ProfilePage() {
               <Box>
                 <Box className="flex items-center gap-3 mb-6">
                   <LockIcon className="text-gray-400" />
-                  <Typography className="text-xl font-black text-[#111]">Parent PIN</Typography>
+                  <Typography className="text-xl font-black text-[#111]">Parent PIN Status</Typography>
                 </Box>
-                <TextField
-                  size="medium"
-                  label="Set a 6-digit PIN"
-                  value={pin}
-                  onChange={(e) => setPin(e.target.value.replace(/\D/g, "").slice(0, 6))}
-                  helperText="Required to access Parent Dashboard."
-                  fullWidth
-                  InputProps={{ className: "rounded-xl" }}
-                />
+                <Typography variant="body2" className="text-gray-500 italic pb-4">
+                  Set above in the Identity section.
+                </Typography>
               </Box>
 
               <Box>

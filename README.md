@@ -1,13 +1,15 @@
-# MotherTongue Stories (Demo)
+# GrowNative - Cultural Adventure Stories for Kids
 
-Local demo scaffold for a privacy-first multilingual literacy engine concept.
+**Production Deployment (Vercel):** [https://grownative-judges.vercel.app/](https://grownative-judges.vercel.app/)
 
-## Tech
-- Next.js + TypeScript
-- MUI + Tailwind
-- **Agentic Workflow**: Server Actions for secure AI orchestration
-- Desktop-first book slider
-- Local-only likes/progress (no accounts, no server)
+## Overview
+GrowNative is an AI-powered storytelling platform that generates cultural adventure stories for kids in multiple languages. It uses Google's Gemini Models and Imagen 3 to create immersive, culturally accurate experiences.
+
+## Tech Stack
+- **Framework:** Next.js 15
+- **AI Models:** Gemini 1.5 Pro, Gemini 2.0 Flash, Imagen 3
+- **Deployment:** Vercel (Production), Google Cloud Storage (Asset Persistence)
+- **Architecture:** Server Actions for secure AI orchestration
 
 ## 🧠 How We Use Gemini 3
 We built this application specifically to leverage the multimodal and reasoning capabilities of the **Gemini 3.0** family.
