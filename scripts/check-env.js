@@ -5,9 +5,9 @@ const requiredVersion = '22.11.0';
 
 function checkNodeVersion() {
     const currentVersion = process.version.replace('v', '');
-    const majorVersion = currentVersion.split('.')[0];
+    const majorVersion = parseInt(currentVersion.split('.')[0], 10);
 
-    if (majorVersion !== '22') {
+    if (majorVersion < 22) {
         console.error(`\x1b[31m
 ===================================================================
 CRITICAL ENVIRONMENT ERROR
