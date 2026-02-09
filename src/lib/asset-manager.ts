@@ -86,11 +86,10 @@ export const AssetManager = {
                     console.log(`[AssetManager] 🟢 GCS CACHE HIT: Found ${imageFiles.length} images`);
                     const results = await Promise.all(imageFiles.map(async (file) => {
                         const [buffer] = await file.download();
-                        // Also Save Local for next time (best effort)
                         try {
                             if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
                             fs.writeFileSync(path.join(dir, path.basename(file.name)), buffer);
-                        } catch (cacheError) {
+                        } catch (cacheError: any) {
                             console.warn("[AssetManager] Local cache failed (skipping):", cacheError.message);
                         }
                         return buffer.toString('base64');
@@ -128,11 +127,10 @@ export const AssetManager = {
 
                 if (exists) {
                     const [buffer] = await file.download();
-                    // Sync local for next time (best effort)
                     try {
                         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
                         fs.writeFileSync(filepath, buffer);
-                    } catch (cacheError) {
+                    } catch (cacheError: any) {
                         console.warn("[AssetManager] Local cache sync failed (skipping):", cacheError.message);
                     }
                     return buffer;
@@ -156,12 +154,11 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const buffer = Buffer.from(base64Data, 'base64');
 
-            // 1. Save Local (Best effort - crucial for local, secondary on Vercel)
             try {
                 if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
                 fs.writeFileSync(filepath, buffer);
                 console.log(`[AssetManager] 💾 Saved local asset: ${filepath}`);
-            } catch (saveError) {
+            } catch (saveError: any) {
                 if (IS_VERCEL) {
                     console.warn(`[AssetManager] ⚠️ Local save skipped (Serverless): ${saveError.message}`);
                 } else {
@@ -233,11 +230,10 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const buffer = Buffer.from(base64Data, 'base64');
 
-            // 1. Local (Best effort)
             try {
                 if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
                 fs.writeFileSync(filepath, buffer);
-            } catch (saveError) {
+            } catch (saveError: any) {
                 console.warn("[AssetManager] Audio local save skipped:", saveError.message);
             }
 
@@ -275,11 +271,10 @@ export const AssetManager = {
             const filepath = path.join(dir, filename);
             const json = JSON.stringify(data, null, 2);
 
-            // 1. Local (Best effort)
             try {
                 if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
                 fs.writeFileSync(filepath, json);
-            } catch (saveError) {
+            } catch (saveError: any) {
                 console.warn("[AssetManager] Log local save skipped:", saveError.message);
             }
 

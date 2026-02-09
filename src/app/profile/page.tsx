@@ -319,16 +319,6 @@ export default function ProfilePage() {
             <Box className="grid grid-cols-1 md:grid-cols-2 gap-10">
               <Box>
                 <Box className="flex items-center gap-3 mb-6">
-                  <LockIcon className="text-gray-400" />
-                  <Typography className="text-xl font-black text-[#111]">Parent PIN Status</Typography>
-                </Box>
-                <Typography variant="body2" className="text-gray-500 italic pb-4">
-                  Set above in the Identity section.
-                </Typography>
-              </Box>
-
-              <Box>
-                <Box className="flex items-center gap-3 mb-6">
                   <VisibilityIcon className="text-gray-400" />
                   <Typography className="text-xl font-black text-[#111]">Visual Effects</Typography>
                 </Box>
