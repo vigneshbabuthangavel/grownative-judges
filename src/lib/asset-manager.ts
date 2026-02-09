@@ -7,7 +7,18 @@ const PRIVATE_ASSETS_DIR = path.join(process.cwd(), 'private_assets');
 
 // GCS Configuration
 const BUCKET_NAME = process.env.GCS_BUCKET_NAME;
-const storage = BUCKET_NAME ? new Storage() : null;
+
+// Initialize Storage with JSON credentials if provided, otherwise use default ADC
+let storageOptions = {};
+if (process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON) {
+    try {
+        storageOptions = { credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON) };
+    } catch (e) {
+        console.error("[AssetManager] Failed to parse GOOGLE_APPLICATION_CREDENTIALS_JSON:", e);
+    }
+}
+
+const storage = BUCKET_NAME ? new Storage(storageOptions) : null;
 
 export const AssetManager = {
     /**
