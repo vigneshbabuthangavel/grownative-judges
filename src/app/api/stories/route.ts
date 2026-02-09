@@ -48,8 +48,15 @@ export async function POST(request: Request) {
         const storyId = storyPack.storyId;
         const storyDir = path.join(process.cwd(), 'public', 'content', 'stories', storyId);
 
-        // Ensure directory exists
-        await fs.mkdir(storyDir, { recursive: true });
+        // Ensure directory exists (Best effort, skip on Vercel)
+        const IS_VERCEL = !!process.env.VERCEL;
+        if (!IS_VERCEL) {
+            try {
+                await fs.mkdir(storyDir, { recursive: true });
+            } catch (e: any) {
+                console.warn(`[POST] Could not create story directory: ${e.message}`);
+            }
+        }
 
         // Efficient Asset Saving (Digital Puppet Mode)
         const assetsSaved = new Set<string>();
@@ -108,10 +115,24 @@ export async function POST(request: Request) {
                 }
                 // Mode B: Legacy Flat Image
                 else if (page.image && page.image.data) {
+                    const IS_VERCEL = !!process.env.VERCEL;
                     const fileName = `page_${i + 1}.png`;
-                    const filePath = path.join(storyDir, fileName);
-                    await fs.writeFile(filePath, Buffer.from(page.image.data, 'base64'));
-                    page.imagePath = `/content/stories/${storyId}/${fileName}`;
+
+                    if (!IS_VERCEL) {
+                        try {
+                            const filePath = path.join(storyDir, fileName);
+                            await fs.writeFile(filePath, Buffer.from(page.image.data, 'base64'));
+                            page.imagePath = `/content/stories/${storyId}/${fileName}`;
+                        } catch (e: any) {
+                            console.warn(`[POST] Failed to save local file, falling back to GCS reference: ${e.message}`);
+                            // Fallback to API route which handles GCS
+                            page.imagePath = `/api/story-asset?storyId=${storyId}&page=${i}`;
+                        }
+                    } else {
+                        // On Vercel, always use the API route which dynamically fetches from GCS
+                        // We use the topic-based URL structure that AssetManager expects
+                        page.imagePath = `/api/story-asset?topic=${encodeURIComponent(storyPack.theme)}&level=${storyPack.level}&language=${storyPack.language}&page=${i}`;
+                    }
                     delete page.image;
                 }
 
@@ -175,8 +196,16 @@ export async function POST(request: Request) {
             console.error("Failed to update DNA registry", e);
         }
 
-        // Write back
-        await fs.writeFile(DATA_FILE, JSON.stringify(updated, null, 2));
+        // Write-back (Best effort on Vercel)
+        if (!IS_VERCEL) {
+            try {
+                await fs.writeFile(DATA_FILE, JSON.stringify(updated, null, 2));
+            } catch (e: any) {
+                console.warn(`[POST] Could not write stories to ${DATA_FILE}: ${e.message}`);
+            }
+        } else {
+            console.log("[POST] Vercel detected: Persistent JSON storage is restricted. Metadata is linked to GCS assets.");
+        }
 
         return NextResponse.json({ success: true, storyId });
     } catch (e) {

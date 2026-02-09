@@ -713,7 +713,7 @@ export async function regeneratePageImage(
     }
 
     const MAX_GEN_ATTEMPTS = 3;
-    const TARGET_QUALITY = 95;
+    const TARGET_QUALITY = 90;
     let base64 = "";
     let vision: any = null;
 
@@ -1288,20 +1288,48 @@ export async function renderUnifiedStory(
             }
 
             const rawBase64 = part.inlineData.data;
-            heroImageBase64 = await optimizeImageAction(rawBase64);
+            const optimized = await optimizeImageAction(rawBase64);
 
-            // Save Asset
+            // [SAGA] HERO AUDIT & AUTO-RETRY
+            let audit = { score: 100, reason: "First pass" };
+            heroImageBase64 = optimized;
+            const MAX_GEN_ATTEMPTS = 3;
+            const TARGET_QUALITY = 90;
+
+            for (let attempt = 1; attempt <= MAX_GEN_ATTEMPTS; attempt++) {
+                console.log(`[SAGA Hero Audit] Checking Page 0, Attempt ${attempt}...`);
+                audit = await auditVisualConsistency(heroImageBase64, heroImageBase64, `Establish Hero Frame: ${topic}`);
+
+                if (audit.score >= TARGET_QUALITY) {
+                    console.log(`✅ [SAGA Hero PASS] Page 0 Score: ${audit.score}`);
+                    break;
+                }
+
+                if (attempt < MAX_GEN_ATTEMPTS) {
+                    console.warn(`⚠️ [SAGA Hero RETRY] Page 0 Score: ${audit.score} (Target ${TARGET_QUALITY}%). Reason: ${audit.reason}. Retrying...`);
+                    const retryResp = await models.imagen.generateContent(imagenInputs) as any;
+                    const retryPart = retryResp.response.candidates?.[0]?.content?.parts?.find((p: any) => p.inlineData);
+                    if (retryPart?.inlineData?.data) {
+                        heroImageBase64 = await optimizeImageAction(retryPart.inlineData.data);
+                    }
+                } else {
+                    console.error(`❌ [SAGA Hero MAX RETRIES] Page 0 failed to hit quality target. Final Score: ${audit.score}`);
+                }
+            }
+
+            // Save Final Hero Asset
             await saveAssetAction(language, level, topic, 0, heroImageBase64);
 
             pages.push({
                 ...sentence0,
-                native: sentence0.text_native, // FIX: Ensure UI key exists
+                native: sentence0.text_native,
                 english: sentence0.english || (sentence0 as any).text_english,
                 imagePath: `/api/story-asset?topic=${encodeURIComponent(topic)}&level=${level}&language=${language}&page=0&t=${Date.now()}`,
                 image: { type: 'image', mimeType: 'image/jpeg', data: heroImageBase64 },
                 imageCaption: `Scene: ${page0.action}`,
                 pageNumber: 1,
                 _meta: { pageIndex: 0 },
+                saga_audit: audit,
                 targetWordIds: finalTargetWords
                     .filter(w => sentence0.text_native.includes(w.native))
                     .map(w => w.id)
@@ -1374,7 +1402,7 @@ export async function renderUnifiedStory(
                         let audit = { score: 100, reason: "First pass" };
                         let currentData = data;
                         const MAX_GEN_ATTEMPTS = 3;
-                        const TARGET_QUALITY = 95;
+                        const TARGET_QUALITY = 90;
 
                         if (heroImageBase64) {
                             for (let attempt = 1; attempt <= MAX_GEN_ATTEMPTS; attempt++) {
