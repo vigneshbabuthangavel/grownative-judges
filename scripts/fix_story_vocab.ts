@@ -86,7 +86,7 @@ async function fixStory() {
         console.log(` Generating vocab for page ${page.pageNumber || page.page_index}...`);
         const newWords = await generateVocabularyForText(text, story.language, story.level);
 
-        const pageWordIds = [];
+        const pageWordIds: string[] = [];
 
         for (const w of newWords) {
             let existing = globalWordsMap.get(w.native);
