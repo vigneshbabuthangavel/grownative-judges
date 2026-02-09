@@ -5,18 +5,19 @@ const requiredVersion = '22.11.0';
 
 function checkNodeVersion() {
     const currentVersion = process.version.replace('v', '');
+    const majorVersion = currentVersion.split('.')[0];
 
-    if (currentVersion !== requiredVersion) {
+    if (majorVersion !== '22') {
         console.error(`\x1b[31m
 ===================================================================
 CRITICAL ENVIRONMENT ERROR
 ===================================================================
 You are running Node.js ${process.version}.
-This project STRICTLY requires Node.js v${requiredVersion}.
+This project requires Node.js v22.x.
 
 Please run:
     nvm use
-    (or install it: nvm install ${requiredVersion})
+    (or install it: nvm install 22)
 
 The app will not start to prevent hard-to-debug issues.
 ===================================================================\x1b[0m`);
