@@ -16,3 +16,7 @@ env:
     availability:
       - BUILD
       - RUNTIME
+  - variable: GEMINI_API_KEY
+    secret: GEMINI_API_KEY
+  - variable: GOOGLE_APPLICATION_CREDENTIALS_JSON
+    secret: GOOGLE_APPLICATION_CREDENTIALS_JSON
