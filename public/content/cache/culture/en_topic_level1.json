@@ -1,0 +1,53 @@
+{
+  "language": {
+    "name": "English",
+    "family": "West Germanic"
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Leo",
+      "Jack",
+      "Sam"
+    ],
+    "protagonist_girls": [
+      "Mia",
+      "Lily",
+      "Sarah"
+    ],
+    "elders_male": [
+      "Grandpa",
+      "Mr. Smith"
+    ],
+    "elders_female": [
+      "Grandma",
+      "Mrs. Jones"
+    ],
+    "locked_behavior": "Handshakes or friendly waves."
+  },
+  "visual_identity": {
+    "architecture": "Suburban brick/wooden houses. Picket fences or small gardens. Paved sidewalks with streetlights.",
+    "environment": "Soft sunlight, oak/maple trees, green lawns.",
+    "clothing": {
+      "men": "Polos and chinos.",
+      "women": "Dresses or jeans and blouses.",
+      "children": "Standard school uniforms or casual wear."
+    },
+    "props": [
+      "Yellow school bus",
+      "Backpacks",
+      "Park benches",
+      "Mailboxes"
+    ]
+  },
+  "negatives": {
+    "avoid": [
+      "Chaotic backgrounds",
+      "Unsafe street play"
+    ],
+    "emotion_guideline": "Politeness, independence, curious engagement."
+  },
+  "urban_settings": {
+    "busy_road": "Sleek paved roads, black taxis, red double-decker buses, luxury sedans, electric cars, cyclists in dedicated lanes",
+    "neighborhood": "Victorian brick houses, neat gardens, parks with benches"
+  }
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "storyId": "story_1767969277404_ja",
+    "visualDNA": "Constant: Japanese features, large expressive eyes, same face shape. Outfit: Navy blue Randoseru (backpack), yellow safety school hat, white polo, dark shorts. Hair: straight jet black with fringe.",
+    "casting": {
+      "protagonist": {
+        "name": "Ren",
+        "visual": "A young Japanese boy with large expressive eyes and straight jet-black hair with a fringe. He wears a navy blue Randoseru, a yellow safety school hat, a crisp white polo, and dark shorts.",
+        "locked_props": [
+          "Navy blue Randoseru",
+          "Yellow safety school hat"
+        ]
+      },
+      "support": {
+        "name": "Hiro",
+        "visual": "A young Japanese boy with large expressive eyes and straight jet-black hair with a fringe. He wears a navy blue Randoseru, a yellow safety school hat, a crisp white polo, and dark shorts.",
+        "locked_props": [
+          "Navy blue Randoseru",
+          "Yellow safety school hat"
+        ]
+      }
+    },
+    "rating": 5
+  },
+  {
+    "storyId": "story_1767969277404_ta",
+    "language": "ta",
+    "visualDNA": "Constant: Japanese features, large expressive eyes, same face shape. Outfit: Navy blue Randoseru (backpack), yellow safety school hat, white polo, dark shorts. Hair: straight jet black with fringe.",
+    "casting": {
+      "protagonist": {
+        "name": "Ren",
+        "visual": "A young Japanese boy with large expressive eyes and straight jet-black hair with a fringe. He wears a navy blue Randoseru, a yellow safety school hat, a crisp white polo, and dark shorts.",
+        "locked_props": [
+          "Navy blue Randoseru",
+          "Yellow safety school hat"
+        ]
+      },
+      "support": {
+        "name": "Hiro",
+        "visual": "A young Japanese boy with large expressive eyes and straight jet-black hair with a fringe. He wears a navy blue Randoseru, a yellow safety school hat, a crisp white polo, and dark shorts.",
+        "locked_props": [
+          "Navy blue Randoseru",
+          "Yellow safety school hat"
+        ]
+      }
+    },
+    "rating": 5
+  },
+  {
+    "storyId": "story_1767969545703_en",
+    "visualDNA": "Leo, a 7-year-old boy with short brown hair, fair skin, wearing a blue polo shirt, khaki chinos, and white sneakers.",
+    "casting": {
+      "protagonist": {
+        "name": "Leo",
+        "visual": "A young boy with short brown hair, wearing a polo and chinos.",
+        "locked_props": [
+          "Backpack"
+        ]
+      },
+      "support": {
+        "name": "Mia",
+        "visual": "A young girl with blonde pigtails, wearing a dress.",
+        "locked_props": [
+          "Backpack"
+        ]
+      }
+    },
+    "rating": 5
+  },
+  {
+    "storyId": "story_1767969545703_ta",
+    "language": "ta",
+    "visualDNA": "Leo, a 7-year-old boy with short brown hair, fair skin, wearing a blue polo shirt, khaki chinos, and white sneakers.",
+    "casting": {
+      "protagonist": {
+        "name": "Leo",
+        "visual": "A young boy with short brown hair, wearing a polo and chinos.",
+        "locked_props": [
+          "Backpack"
+        ]
+      },
+      "support": {
+        "name": "Mia",
+        "visual": "A young girl with blonde pigtails, wearing a dress.",
+        "locked_props": [
+          "Backpack"
+        ]
+      }
+    },
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768392982901_pfyhv0mbn",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768393049800_bnjg9dmwy",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768393136550_olh23q2dw",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768393160037_pq9agm18x",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768393717016_8og043m9q",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768394073699_j0gw8yv5z",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768394583150_e2iax8evz",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768394981574_q54vpj12w",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1768395204592_ojtl2iga7",
+    "topic": "The boy who found a star",
+    "language": "ta",
+    "visualDNA": "simulated",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1769910908043_2z3hv1kro",
+    "topic": "The boy who helped",
+    "language": "ta",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770031746578_cid6a55tx",
+    "topic": "two sisters and a teddy",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Kayal (Elder Sister)\",\"dna\":{\"hair\":\"Jet black hair braided with fresh white jasmine flowers (Malli-poo).\",\"clothing\":{\"top\":\"Cobalt Blue silk sattai (blouse) with gold borders.\",\"bottom\":\"Matching Cobalt Blue pavadai (long skirt).\"},\"skin\":\"Medium-warm Tamil skin tone.\",\"age\":\"8 years old\"}},\"SUPP_01\":{\"name\":\"Oviya (Younger Sister)\",\"dna\":{\"hair\":\"Short black hair in two playful pigtails.\",\"clothing\":{\"top\":\"Bright Yellow silk blouse.\",\"bottom\":\"Bright Yellow skirt with a red border.\"},\"skin\":\"Medium-warm Tamil skin tone.\",\"age\":\"4 years old\"}}},\"environment\":{\"primary_location\":\"Chettinad Home Interior: Spacious room with smooth red-oxide flooring, heavy wooden pillars, a central courtyard open to the sky, and a wooden Oonjal (swing) hanging by brass chains.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770032637387_a823scvfy",
+    "topic": "Fox, Crow and Vadai",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Paati (Grandmother)\",\"dna\":{\"hair\":\"Silver grey hair tied in a tight bun with jasmine flowers\",\"skin\":\"Medium-warm Tamil skin tone, wrinkled kindly face\",\"clothing\":{\"top\":\"Maroon blouse\",\"drape\":\"Green Kanchipuram cotton saree with gold zari border\",\"accessories\":\"Gold rimmed spectacles, nose pin\"}}},\"SUPP_01\":{\"name\":\"Nari (Fox)\",\"dna\":{\"species\":\"Indian Fox\",\"coat\":\"Dusty orange-brown fur with a black-tipped tail\",\"expression\":\"Sly, mischievous eyebrows, large expressive eyes\",\"posture\":\"Lean and agile\"}}},\"environment\":{\"primary_location\":\"A rustic village street corner under a massive Banyan tree during Golden Hour. Red soil ground, a small thatched-roof stall with a large iron wok (kadai) over a wood fire.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770117447089_en",
+    "topic": "Simulate FlowFriendship",
+    "language": "en",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Leo\",\"dna\":{\"hair\":\"Short, messy brown hair\",\"clothing\":{\"top\":\"Red hoodie with a white zipper\",\"bottom\":\"Blue denim jeans\",\"shoes\":\"White sneakers with velcro straps\"}}},\"SUPPORT_01\":{\"name\":\"Mia\",\"dna\":{\"hair\":\"Blonde hair in a high ponytail\",\"clothing\":{\"top\":\"Green t-shirt with a yellow star graphic\",\"bottom\":\"Pink athletic shorts\",\"shoes\":\"Yellow running shoes\"}}}},\"environment\":{\"primary_location\":\"Sunny suburban park with green lawns, deciduous trees, and a paved walking path.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770117447089_ta",
+    "topic": "Simulate FlowFriendship",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Leo\",\"dna\":{\"hair\":\"Short, messy brown hair\",\"clothing\":{\"top\":\"Red hoodie with a white zipper\",\"bottom\":\"Blue denim jeans\",\"shoes\":\"White sneakers with velcro straps\"}}},\"SUPPORT_01\":{\"name\":\"Mia\",\"dna\":{\"hair\":\"Blonde hair in a high ponytail\",\"clothing\":{\"top\":\"Green t-shirt with a yellow star graphic\",\"bottom\":\"Pink athletic shorts\",\"shoes\":\"Yellow running shoes\"}}}},\"environment\":{\"primary_location\":\"Sunny suburban park with green lawns, deciduous trees, and a paved walking path.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770120508482_zh",
+    "topic": "Friendship",
+    "language": "zh",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"dna\":{\"hair\":\"Thick black hair, neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"},\"features\":\"Chinese features, large expressive eyes\"}},\"SUPPORT_01\":{\"name\":\"Yeye\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey trousers\"},\"props\":\"Empty wooden birdcage\"}}},\"environment\":{\"primary_location\":\"Urban park with weeping willow trees, stone bridges, and distant high-rises\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770120508482_ta",
+    "topic": "Friendship",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"dna\":{\"hair\":\"Thick black hair, neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"},\"features\":\"Chinese features, large expressive eyes\"}},\"SUPPORT_01\":{\"name\":\"Yeye\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey trousers\"},\"props\":\"Empty wooden birdcage\"}}},\"environment\":{\"primary_location\":\"Urban park with weeping willow trees, stone bridges, and distant high-rises\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770120853970_en",
+    "topic": "Friendship",
+    "language": "en",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Leo\",\"dna\":{\"hair\":\"Short, messy brown hair\",\"clothing\":{\"top\":\"Red hoodie with white drawstrings\",\"bottom\":\"Blue denim jeans\",\"shoes\":\"High-top sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Mia\",\"dna\":{\"hair\":\"Blonde hair in a ponytail\",\"clothing\":{\"top\":\"Green striped t-shirt\",\"bottom\":\"Navy blue shorts\",\"shoes\":\"White running shoes\"}}}},\"environment\":{\"primary_location\":\"Suburban Neighborhood Park\",\"features\":[\"Green lawn\",\"Deciduous trees\",\"Paved winding path\",\"Wooden park bench\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770120853970_ta",
+    "topic": "Friendship",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Leo\",\"dna\":{\"hair\":\"Short, messy brown hair\",\"clothing\":{\"top\":\"Red hoodie with white drawstrings\",\"bottom\":\"Blue denim jeans\",\"shoes\":\"High-top sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Mia\",\"dna\":{\"hair\":\"Blonde hair in a ponytail\",\"clothing\":{\"top\":\"Green striped t-shirt\",\"bottom\":\"Navy blue shorts\",\"shoes\":\"White running shoes\"}}}},\"environment\":{\"primary_location\":\"Suburban Neighborhood Park\",\"features\":[\"Green lawn\",\"Deciduous trees\",\"Paved winding path\",\"Wooden park bench\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770121189667_zh",
+    "topic": "Friendship",
+    "language": "zh",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"dna\":{\"hair\":\"Thick black hair, neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Yeye (Grandfather)\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey slacks\",\"accessories\":\"Carrying a silver thermos\"}}}},\"environment\":{\"primary_location\":\"Urban Park: Weeping willow trees, gray stone paths, golden afternoon sun.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770121189667_ta",
+    "topic": "Friendship",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"dna\":{\"hair\":\"Thick black hair, neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Yeye (Grandfather)\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey slacks\",\"accessories\":\"Carrying a silver thermos\"}}}},\"environment\":{\"primary_location\":\"Urban Park: Weeping willow trees, gray stone paths, golden afternoon sun.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770122939394_zh",
+    "topic": "Friendship",
+    "language": "zh",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"description\":\"A helpful young schoolboy.\",\"dna\":{\"hair\":\"Thick black hair with a neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Yeye\",\"description\":\"An elderly neighbor.\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey trousers\",\"shoes\":\"Black cloth shoes\"},\"props\":[\"Empty birdcage\",\"Thermos\"]}}},\"environment\":{\"primary_location\":\"A neighborhood mixing traditional Siheyuan courtyards and modern streets.\",\"lighting\":\"Golden afternoon sun\",\"key_elements\":[\"Weeping willow trees\",\"Stone bridges\",\"Red lanterns\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770122939394_ta",
+    "topic": "Friendship",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Jun\",\"description\":\"A helpful young schoolboy.\",\"dna\":{\"hair\":\"Thick black hair with a neat bowl-cut\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"}}},\"SUPPORT_01\":{\"name\":\"Yeye\",\"description\":\"An elderly neighbor.\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark grey trousers\",\"shoes\":\"Black cloth shoes\"},\"props\":[\"Empty birdcage\",\"Thermos\"]}}},\"environment\":{\"primary_location\":\"A neighborhood mixing traditional Siheyuan courtyards and modern streets.\",\"lighting\":\"Golden afternoon sun\",\"key_elements\":[\"Weeping willow trees\",\"Stone bridges\",\"Red lanterns\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770123423534_s3u2ipwmb",
+    "topic": "The boy who helped",
+    "language": "zh",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Wei\",\"dna\":{\"hair\":\"Neat bowl-cut black hair\",\"clothing\":{\"top\":\"Bright red track-style school jacket with white stripes\",\"bottom\":\"Denim trousers\",\"shoes\":\"Yellow sneakers\"},\"features\":\"Chinese features, large expressive eyes\"}},\"SUPPORT_01\":{\"name\":\"Yeye\",\"dna\":{\"hair\":\"Thinning grey hair\",\"clothing\":{\"top\":\"Grey Mao-style jacket\",\"bottom\":\"Dark trousers\"},\"props\":\"Silver thermos of hot tea\"}}},\"environment\":{\"primary_location\":\"Wide urban boulevard with green public buses and electric scooter lanes\",\"time_of_day\":\"Golden afternoon sun\",\"atmosphere\":\"Busy, energetic, warm\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770374888150_c1p3eeekg",
+    "topic": "two girls and a teddy",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Kayal\",\"dna\":{\"hair\":\"Jet black, long single braid adorned with jasmine flowers\",\"clothing\":{\"top\":\"Cobalt Blue silk blouse (Sattai) with gold border\",\"bottom\":\"Matching Cobalt Blue long skirt (Pavadai)\"},\"skin\":\"Medium-warm Tamil skin tone\",\"age\":\"8 years old\"}},\"SUPPORT_01\":{\"name\":\"Oviya\",\"dna\":{\"hair\":\"Short black hair in two pigtails\",\"clothing\":{\"top\":\"Bright Yellow silk blouse\",\"bottom\":\"Bright Yellow long skirt\"},\"skin\":\"Medium-warm Tamil skin tone\",\"age\":\"4 years old\"}}},\"environment\":{\"primary_location\":\"Traditional Tamil home garden with red soil paths, neem trees, and a rangoli near the entrance.\"}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770505956121_q306rczmh",
+    "topic": "two little sisters and a teddy",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Ananya\",\"role\":\"Elder Sister\",\"age\":\"8 year old\",\"dna\":{\"hair\":\"Long black braid with jasmine flowers\",\"clothing\":{\"top\":\"Red and gold Pattu Pavadai Sattai (Silk skirt and blouse)\",\"accessories\":\"Small gold bangles\"}}},\"PROT_02\":{\"name\":\"Kayal\",\"role\":\"Younger Sister\",\"age\":\"4 year old\",\"dna\":{\"hair\":\"Short bob cut with a small clip\",\"clothing\":{\"top\":\"Bright blue cotton frock with floral prints\",\"footwear\":\"Barefoot indoors\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Teddy Bear\",\"parent\":\"Scene\",\"description\":\"A soft, medium-brown teddy bear with a red ribbon bow.\",\"scale\":\"Child-hug size (approx 30cm)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Toy Blocks\",\"parent\":\"Scene\",\"description\":\"Colorful wooden building blocks.\",\"scale\":\"Small hand-held items\",\"persistence\":\"scene\"}},\"environment\":{\"primary_location\":\"Tamil Home Interior (Bedroom/Hall)\",\"time_of_day\":\"Late Afternoon (Golden Hour)\",\"lighting\":\"Warm sunlight streaming through open wooden windows, creating dust motes in the air.\",\"key_elements\":[\"Athangudi Tiled Floor (Checkered pattern)\",\"Wooden Cot\",\"Brass water jug on side table\",\"Open window with grill\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770526759044_4g6a6m82c",
+    "topic": "two little sisters and a teddy",
+    "language": "ja",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Hana\",\"role\":\"Protagonist (Older Sister)\",\"age\":\"7 year old\",\"dna\":{\"hair\":\"Straight jet black with a sharp fringe\",\"clothing\":{\"top\":\"Crisp white polo shirt\",\"bottom\":\"Navy blue school skirt\",\"accessories\":\"White socks\"}}},\"PROT_02\":{\"name\":\"Mei\",\"role\":\"Protagonist (Younger Sister)\",\"age\":\"4 year old\",\"dna\":{\"hair\":\"Chin-length black bob with yellow hairclips\",\"clothing\":{\"top\":\"Pale yellow smock (kindergarten style)\",\"bottom\":\"Navy blue shorts\",\"accessories\":\"White uwabaki (indoor slippers)\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Kuma-chan (Teddy Bear)\",\"parent\":\"PROT_02\",\"description\":\"A well-loved, slightly worn brown teddy bear with a red ribbon.\",\"scale\":\"Child-hug size (approx 30cm)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Wooden Blocks\",\"parent\":\"scene\",\"description\":\"Colorful geometric wooden building blocks.\",\"scale\":\"Small handheld\",\"persistence\":\"scene\"}},\"environment\":{\"primary_location\":\"Japanese Living Room (Washitsu)\",\"time_of_day\":\"Afternoon\",\"lighting\":\"Soft natural light filtering through Shoji screens\",\"key_elements\":[\"Tatami mats\",\"Sliding Shoji doors\",\"Low wooden table\",\"Toy box\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770601693909_ajv3zc5xf",
+    "topic": "Two little sisters and a teddy bear",
+    "language": "es",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Sofía\",\"role\":\"Protagonist (Elder Sister)\",\"age\":\"8 year old\",\"dna\":{\"hair\":\"Wavy dark brown hair with a small flower\",\"clothing\":{\"top\":\"Bright ochre linen dress\",\"bottom\":\"White canvas sneakers\",\"skin\":\"Olive tone\"}}},\"PROT_02\":{\"name\":\"Lucía\",\"role\":\"Support (Younger Sister)\",\"age\":\"4 year old\",\"dna\":{\"hair\":\"Curly dark brown hair, slightly messy\",\"clothing\":{\"top\":\"Matching ochre linen tunic\",\"bottom\":\"White leggings\",\"skin\":\"Olive tone\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"El Osito (Teddy Bear)\",\"parent\":\"PROT_02\",\"description\":\"Vintage brown plush bear with a red ribbon\",\"scale\":\"Small (fits in child's arms)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Wooden Blocks\",\"parent\":\"scene\",\"description\":\"Colorful wooden alphabet blocks\",\"scale\":\"Small\",\"persistence\":\"scene\"},\"PROP_03\":{\"id\":\"PROP_03\",\"name\":\"Wrought Iron Bed\",\"parent\":\"scene\",\"description\":\"Traditional Spanish bed with white linens\",\"scale\":\"Large\",\"persistence\":\"static\"}},\"environment\":{\"primary_location\":\"Sunlit Bedroom\",\"time_of_day\":\"High Noon\",\"lighting\":\"Bright, high-contrast sunlight streaming through balcony doors, casting sharp shadows on terracotta tiles.\",\"key_elements\":[\"Terracotta floor tiles\",\"White stucco walls\",\"Open balcony door\",\"Wrought iron details\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770610709326_vwr5dnvl9",
+    "topic": "Tiny Astronaut",
+    "language": "es",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Leo\",\"role\":\"Protagonist\",\"age\":\"6 year old\",\"dna\":{\"hair\":\"Wavy dark brown (visible inside helmet)\",\"skin\":\"Olive tone\",\"clothing\":{\"top\":\"Shiny silver space suit with orange patches\",\"bottom\":\"Silver metallic trousers and heavy boots\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Seta de Neón (Neon Mushroom)\",\"parent\":\"Environment\",\"description\":\"A glowing, oversized mushroom with neon blue spots.\",\"scale\":\"Large (Waist-high to child)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Cohete Plateado (Silver Rocket)\",\"parent\":\"Environment\",\"description\":\"A sleek, retro-style silver rocket ship with a porthole.\",\"scale\":\"Huge (Vehicle size)\",\"persistence\":\"scene\"}},\"environment\":{\"primary_location\":\"The Magic Garden (El Jardín Mágico)\",\"time_of_day\":\"Night\",\"lighting\":\"Bioluminescent Blue and Purple contrast against dark shadows\",\"key_elements\":[\"Giant glowing flora\",\"Mediterranean stone archways in background\",\"Starry night sky\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770624339780_9vgaclvmf",
+    "topic": "glowbird the friend",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Elilan\",\"role\":\"Protagonist\",\"age\":\"7 year old\",\"dna\":{\"hair\":\"Short side-parted buzz cut, jet black\",\"skin\":\"Medium-warm Tamil tone\",\"eyes\":\"Large, expressive brown\",\"clothing\":{\"top\":\"Bright yellow cotton shirt\",\"bottom\":\"Brown linen shorts\",\"accessories\":\"None\"}}},\"CREATURE_01\":{\"name\":\"Glowbird\",\"role\":\"Magical Creature\",\"age\":\"Unknown\",\"dna\":{\"type\":\"Avian\",\"color\":\"Luminescent Cobalt Blue\",\"features\":\"Hummingbird-like shape, glowing trails from wings\"}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Giant Hibiscus\",\"parent\":\"Environment\",\"description\":\"Massive red flower, larger than the boy's head\",\"scale\":\"Oversized (Fantasy Scale)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Nectar Leaf\",\"parent\":\"PROT_01\",\"description\":\"A curved green leaf holding golden liquid\",\"scale\":\"Hand-held\",\"persistence\":\"temporary\"}},\"environment\":{\"primary_location\":\"Fantasy Tropical Garden\",\"time_of_day\":\"Golden Hour\",\"lighting\":\"Warm sunlight filtering through leaves, contrasted by cool blue bioluminescence\",\"key_elements\":[\"Red soil path\",\"Oversized lush greenery\",\"Distant temple silhouette\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770626182886_qiobbsc1o",
+    "topic": "Lost key",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Kavin\",\"role\":\"Protagonist\",\"age\":\"7 year old\",\"dna\":{\"gender\":\"male\",\"hair\":\"Short side-parted buzz cut, black\",\"skin\":\"Medium-warm Tamil tone\",\"clothing\":{\"top\":\"Bright orange t-shirt with a cartoon tiger\",\"bottom\":\"Denim shorts\",\"footwear\":\"Rubber slippers (chappals)\"}}},\"SUPP_01\":{\"name\":\"Iniya\",\"role\":\"Sister\",\"age\":\"5 year old\",\"dna\":{\"gender\":\"female\",\"hair\":\"Oiled hair in two braids with jasmine flowers\",\"skin\":\"Medium-warm Tamil tone\",\"clothing\":{\"top\":\"Polka-dotted yellow frock\",\"bottom\":\"White leggings\",\"footwear\":\"None (Barefoot in garden)\"}}},\"SUPP_02\":{\"name\":\"Amma\",\"role\":\"Mother\",\"age\":\"35 year old\",\"dna\":{\"gender\":\"female\",\"hair\":\"Long braid resting on shoulder\",\"clothing\":{\"top\":\"Maroon blouse\",\"bottom\":\"Cream and Maroon Cotton Saree\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Brass House Key\",\"parent\":\"Environment\",\"description\":\"Old fashioned brass key with a small green keychain\",\"scale\":\"Tiny (Palm-sized)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Rubber Ball\",\"parent\":\"PROT_01\",\"description\":\"Red cheap rubber cricket ball\",\"scale\":\"Small\",\"persistence\":\"temporary\"},\"PROP_03\":{\"id\":\"PROP_03\",\"name\":\"Tulsi Plant (Brindavan)\",\"parent\":\"Environment\",\"description\":\"Traditional stone planter with Tulsi bush\",\"scale\":\"Waist High to Child\",\"persistence\":\"static\"}},\"environment\":{\"primary_location\":\"Backyard Garden\",\"time_of_day\":\"Golden Hour (Late Afternoon)\",\"lighting\":\"Warm sunlight filtering through coconut trees, long soft shadows\",\"key_elements\":[\"Red soil ground\",\"Ochre compound wall\",\"Coconut Tree\",\"Back door with Kolam threshold\"]}}",
+    "rating": 5
+  },
+  {
+    "storyId": "story_1770630510492_hrr10bibi",
+    "topic": "Lost key",
+    "language": "ta",
+    "visualDNA": "{\"style_engine\":\"Pixar-esque 3D\",\"actors\":{\"PROT_01\":{\"name\":\"Kavin\",\"role\":\"Protagonist\",\"age\":\"7 year old\",\"dna\":{\"hair\":\"Short side-parted buzz cut, black\",\"clothing\":{\"top\":\"Bright cobalt blue t-shirt\",\"bottom\":\"Beige cotton shorts\"}}},\"SUPPORT_01\":{\"name\":\"Iniya\",\"role\":\"Sister\",\"age\":\"5 year old\",\"dna\":{\"hair\":\"Twin braids with jasmine flowers\",\"clothing\":{\"top\":\"Yellow cotton frock with floral prints\",\"bottom\":\"White leggings\"}}},\"SUPPORT_02\":{\"name\":\"Amma\",\"role\":\"Mother\",\"age\":\"32 year old\",\"dna\":{\"hair\":\"Long black braid with jasmine\",\"clothing\":{\"top\":\"Maroon blouse\",\"bottom\":\"Green Kanchipuram silk saree\"}}}},\"props\":{\"PROP_01\":{\"id\":\"PROP_01\",\"name\":\"Brass House Key\",\"parent\":\"SUPPORT_02\",\"description\":\"Small, shiny, antique brass key with a round head.\",\"scale\":\"Small (Handheld)\",\"persistence\":\"scene\"},\"PROP_02\":{\"id\":\"PROP_02\",\"name\":\"Plastic Cricket Ball\",\"parent\":\"PROT_01\",\"description\":\"Red textured plastic ball.\",\"scale\":\"Small\",\"persistence\":\"scene\"},\"PROP_03\":{\"id\":\"PROP_03\",\"name\":\"Terracotta Pot\",\"parent\":\"static\",\"description\":\"Red clay pot with Tulsi plant.\",\"scale\":\"Knee-high\",\"persistence\":\"static\"}},\"environment\":{\"primary_location\":\"Backyard Garden\",\"time_of_day\":\"Golden Hour (5:00 PM)\",\"lighting\":\"Warm, directional sunlight creating long shadows through leaves.\",\"key_elements\":[\"Red soil path\",\"Ochre compound wall\",\"Neem Tree\",\"Back door with Kolam on step\"]}}",
+    "rating": 5
+  }
+]

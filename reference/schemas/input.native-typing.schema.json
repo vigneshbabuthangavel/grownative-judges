@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/native-typing.schema.json",
+  "title": "Native Typing Support Rules",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "languages",
+    "modes",
+    "recommendations"
+  ],
+  "properties": {
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ta",
+          "hi",
+          "en"
+        ]
+      }
+    },
+    "modes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "description",
+          "supportedLanguages"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "os_ime",
+              "phonetic_helper",
+              "transliteration_display"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "supportedLanguages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "ta",
+                "hi",
+                "en"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "language",
+          "primary",
+          "fallback",
+          "notes"
+        ],
+        "properties": {
+          "language": {
+            "type": "string",
+            "enum": [
+              "ta",
+              "hi",
+              "en"
+            ]
+          },
+          "primary": {
+            "type": "string"
+          },
+          "fallback": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

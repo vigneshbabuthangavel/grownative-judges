@@ -1,0 +1,75 @@
+{
+  "language": "ta",
+  "script": {
+    "unicodeRanges": [
+      "Tamil: U+0B80–U+0BFF"
+    ],
+    "minScriptPurity": 92
+  },
+  "levels": [
+    {
+      "level": 1,
+      "caps": {
+        "maxWordsPerSentence": 4,
+        "maxSentencesPerPage": 1,
+        "maxClauseDepth": 0
+      },
+      "allowedPatterns": [
+        "[NOUN] [VERB].",
+        "[NOUN] [ADJ]."
+      ],
+      "disallowed": [
+        "subordinate clauses",
+        "idioms",
+        "loanwords"
+      ]
+    },
+    {
+      "level": 2,
+      "caps": {
+        "maxWordsPerSentence": 6,
+        "maxSentencesPerPage": 2,
+        "maxClauseDepth": 0
+      },
+      "allowedPatterns": [
+        "[NOUN] [NOUN] [VERB].",
+        "[PRONOUN] [VERB] [NOUN].",
+        "[NOUN] [ADJ] [NOUN]."
+      ],
+      "disallowed": [
+        "complex conjunction chains",
+        "long parentheses"
+      ]
+    },
+    {
+      "level": 3,
+      "caps": {
+        "maxWordsPerSentence": 8,
+        "maxSentencesPerPage": 3,
+        "maxClauseDepth": 1
+      },
+      "allowedPatterns": [
+        "[NOUN] [VERB] [CONJ] [NOUN] [VERB].",
+        "Simple cause/effect: 'அதால்' usage sparingly."
+      ],
+      "disallowed": [
+        "nested clauses >1"
+      ]
+    }
+  ],
+  "lexical": {
+    "avoidLoanwordsUntilLevel": 4,
+    "tabooTokens": [
+      "kill",
+      "gun",
+      "blood",
+      "sex",
+      "drugs",
+      "suicide"
+    ],
+    "okayLoanwords": [
+      "bus",
+      "school"
+    ]
+  }
+}

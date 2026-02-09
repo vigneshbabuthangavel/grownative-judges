@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FAF5FF"/>
+<rect x="130" y="280" width="120" height="180" rx="16" fill="#111"/>
+<circle cx="520" cy="260" r="40" fill="#111"/>
+<text x="140" y="160" font-size="28" font-family="Arial" fill="#111">Bird and tree</text>
+</svg>

@@ -1,0 +1,191 @@
+{
+  "version": "v2_puppet",
+  "premise": "Leo is an eight-year-old boy walking to the park who sees an old man waiting to cross the road. Leo asks to help him, takes his hand, and they cross together, leaving the old man smiling happily.",
+  "visual_stage": {
+    "setting_description": "A bright city street corner with a white-striped pedestrian crosswalk leading towards a lush green park visible in the background. The street is clean and empty of vehicles and other people.",
+    "style_notes": "Vibrant digital illustration with clean lines and soft lighting to evoke a helpful, friendly atmosphere."
+  },
+  "cast_lock": {
+    "max_humans": 2,
+    "allowed_humans": [
+      "protagonist",
+      "support"
+    ],
+    "no_duplicates": true,
+    "no_extra_children": true,
+    "no_crowds": true,
+    "background_people": "none",
+    "animal_policy": "no animals unless explicitly listed"
+  },
+  "beats": [
+    {
+      "page": 1,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "left side of the street",
+        "action": "walking cheerfully towards the crosswalk",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "waiting at the curb on the right",
+        "action": "standing still, looking at the road hesitantly",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "Leo is just entering the scene from the left."
+      },
+      "constraints": [
+        "support is an elderly man",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "walk",
+        "x": 15,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 2,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "approaching the curb",
+        "action": "stopping to look at the old man",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "standing at the edge of the crosswalk",
+        "action": "looking down at the street",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "Leo notices the man needs help."
+      },
+      "constraints": [
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "idle",
+        "x": 40,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 3,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "next to the old man",
+        "action": "looking up and talking to the old man, offering his hand",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "at the curb",
+        "action": "looking down at Leo with a surprised expression",
+        "emotion": "medium"
+      },
+      "environment": {
+        "notes": "Leo is seeking permission to help."
+      },
+      "constraints": [
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "talk",
+        "x": 55,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 4,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "standing beside the man",
+        "action": "holding the old man's hand firmly",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "standing beside Leo",
+        "action": "holding Leo's hand and smiling",
+        "emotion": "medium"
+      },
+      "environment": {
+        "notes": "They are ready to step onto the crosswalk."
+      },
+      "constraints": [
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "happy",
+        "x": 60,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 5,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "middle of the crosswalk",
+        "action": "leading the old man across the street",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "beside the protagonist",
+        "action": "walking slowly with Leo's help",
+        "emotion": "medium"
+      },
+      "environment": {
+        "notes": "They are safely crossing the white lines of the pedestrian path."
+      },
+      "constraints": [
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "walk",
+        "x": 75,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 6,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "far right side near the park entrance",
+        "action": "looking back at the old man before continuing",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "safely on the other sidewalk",
+        "action": "waving and smiling broadly at Leo",
+        "emotion": "medium"
+      },
+      "environment": {
+        "notes": "The park entrance is now directly behind them."
+      },
+      "constraints": [
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "happy",
+        "x": 90,
+        "y": 85,
+        "size": 0.8,
+        "isFlipped": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "language": {
+    "name": "Spanish",
+    "native": "Español",
+    "family": "Romance",
+    "structure": "SVO"
+  },
+  "cultural_logic": {
+    "locale": "es-ES",
+    "language": "Spanish",
+    "structural_constraints": {
+      "sentence_order": "SVO",
+      "particle_dependency": "Low",
+      "honorific_strategy": "Formal-Tu/Usted"
+    },
+    "storytelling_templates": {
+      "formal_opening": "Érase una vez... (Once upon a time...)",
+      "character_speech_patterns": {
+        "elder": "Affectionate",
+        "child": "Rapid/Energetic"
+      }
+    }
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Mateo",
+      "Leo",
+      "Hugo",
+      "Diego"
+    ],
+    "protagonist_girls": [
+      "Sofia",
+      "Lucia",
+      "Martina",
+      "Elena"
+    ],
+    "elders_male": [
+      "Abuelo",
+      "Tío"
+    ],
+    "elders_female": [
+      "Abuela",
+      "Tía"
+    ],
+    "locked_behavior": "Physical affection (hugs, kisses on cheeks); animated hand gestures during speech."
+  },
+  "visual_identity": {
+    "characters": {
+      "protagonist": {
+        "base": "Constant: Olive skin tone, wavy dark brown hair, same face shape.",
+        "boy": "Outfit: Bright ochre linen t-shirt, blue denim shorts, white canvas sneakers.",
+        "girl": "Outfit: Bright ochre linen dress, white canvas sneakers. Hair: wavy dark brown hair with a small flower."
+      },
+      "support": "Elderly Spanish man with silver hair and warm tanned skin. OUTFIT: Sharp cream-colored linen shirt, dark trousers, brown leather loafers, gold wedding band."
+    },
+    "architecture": {
+      "style": "Mediterranean stucco walls in white or terracotta. Wrought iron balconies with flower pots.",
+      "threshold": "Heavy wood doors, tiled steps.",
+      "horizon": "Rolling hills or church towers."
+    },
+    "environment": "Bright high-contrast sunlight, olive/orange trees, cobblestones.",
+    "clothing": {
+      "basics_men": "Linen shirts, loafers.",
+      "basics_women": "Summer dresses, chic blouses.",
+      "basics_kids": "Stylish cotton wear.",
+      "men": "Tailored linen shirts, espadrilles."
+    },
+    "props": {
+      "locked": [
+        "Small ceramic espresso cup",
+        "Wicker market basket with a baguette",
+        "Wrought iron plaza bench",
+        "Old-fashioned street lamp"
+      ],
+      "textures": [
+        "Painted ceramic tiles (azulejos)",
+        "Rough stucco",
+        "Woven esparto grass"
+      ]
+    }
+  },
+  "urban_settings": {
+    "busy_road": "Narrow paved streets, small European hatchbacks (SEAT style), delivery scooters, narrow sidewalks.",
+    "neighborhood": "Central plazas with fountains, children playing soccer against stone walls, open-air cafes."
+  },
+  "negatives": {
+    "avoid": [
+      "Generic US suburban lawns",
+      "Drab/grey color palettes",
+      "Passive/quiet character framing"
+    ],
+    "emotion_guideline": "Vibrant social joy, expressive affection, family-first mentality."
+  },
+  "character_anchors": {
+    "protagonist": {
+      "base": "Constant: Olive skin tone, wavy dark brown hair, same face shape.",
+      "boy": "Outfit: Ochre linen t-shirt, blue denim shorts, white canvas sneakers.",
+      "girl": "Outfit: Ochre linen dress, white canvas sneakers."
+    },
+    "support": "Constant: Cream linen shirt, dark trousers, brown leather loafers, silver hair, warm tanned skin."
+  },
+  "plot_anchors": {
+    "crossing_in_progress": "Composition: Boy and elderly man WALKING through the center of a narrow cobblestone street.",
+    "crossing_completed": "Composition: Boy and elderly man REACHED the plaza on the other side. Narrow street behind them.",
+    "greeting": "Composition: Boy greeting the elder with an animated gesture or a hug (physical affection). Warm sunlit plaza setting."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/qa-native-likeness.schema.json",
+  "title": "Native-likeness QA Heuristics",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "language",
+    "heuristics",
+    "weights",
+    "thresholds"
+  ],
+  "properties": {
+    "language": {
+      "type": "string",
+      "enum": [
+        "ta",
+        "hi",
+        "en"
+      ]
+    },
+    "heuristics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "description",
+          "signalType",
+          "examples"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "signalType": {
+            "type": "string",
+            "enum": [
+              "regex",
+              "dictionary",
+              "pattern",
+              "statistical"
+            ]
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "weights": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pass",
+        "warn"
+      ],
+      "properties": {
+        "pass": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "warn": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sentences": [
+    {
+      "native": "அரவிந்த் வயல்வெளியில் நடந்தபோது ஒரு ஒளிரும் நட்சத்திரத்தைக் கண்டான்.",
+      "english": "Aravind found a glowing star when he walked in the fields."
+    },
+    {
+      "native": "அவன் அந்தப் பிரகாசமான நட்சத்திரத்தைத் தன் சிவப்பு பையில் வைத்தான்.",
+      "english": "He placed the bright star inside his red backpack."
+    },
+    {
+      "native": "நட்சத்திரம் பிரகாசமாக இருந்ததால், ஒளி பையிலிருந்து வெளியே வந்தது.",
+      "english": "Because the star was bright, light came out from the bag."
+    },
+    {
+      "native": "அரவிந்த் பையை மூடினான், ஆனால் ஒளி மிகவும் அதிகமாக இருந்தது.",
+      "english": "Aravind covered the bag, but the light was very strong."
+    },
+    {
+      "native": "தாத்தா அந்த வெப்பமான ஒளியைப் பார்த்தபோது அங்கே வந்தார்.",
+      "english": "Thatha came there when he saw the warm light."
+    },
+    {
+      "native": "தாத்தா வெள்ளை வேட்டி அணிந்து ஒரு மரக் குச்சியைப் பிடித்திருந்தார்.",
+      "english": "Thatha wore a white dhoti and held a wooden cane."
+    },
+    {
+      "native": "பை ஏன் பிரகாசமாக ஒளிர்கிறது என்று தாத்தா கேட்டார்.",
+      "english": "Thatha asked why the bag was glowing brightly."
+    },
+    {
+      "native": "அரவிந்த் தன் தாத்தாவை நம்பியதால் அந்த நட்சத்திரத்தைக் காட்டினான்.",
+      "english": "Aravind showed the star because he trusted his grandfather."
+    },
+    {
+      "native": "நட்சத்திரத்தின் மாயாஜால ஒளி இருண்ட கிராமம் முழுவதையும் ஒளிரச் செய்தது.",
+      "english": "The star's magical light illuminated the entire dark village."
+    },
+    {
+      "native": "இரவு அழகாக மாறியதால் கிராமத்தில் எல்லோரும் மகிழ்ச்சியாக இருந்தார்கள்.",
+      "english": "Everyone in the village was happy because the night became beautiful."
+    }
+  ],
+  "_aiMeta": {
+    "modelUsed": "gemini-3-pro-preview",
+    "isFallback": false,
+    "isGemini3": false
+  }
+}

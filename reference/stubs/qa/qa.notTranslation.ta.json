@@ -1,0 +1,35 @@
+{
+  "language": "ta",
+  "checks": [
+    {
+      "id": "no_inline_translation",
+      "description": "Fail if patterns like '(meaning: ...)' appear inside story text.",
+      "patternHints": [
+        "meaning:",
+        "translation:"
+      ],
+      "failIfTriggered": true
+    },
+    {
+      "id": "no_forced_transliteration",
+      "description": "Fail if Latin transliteration appears in native text when not requested.",
+      "patternHints": [
+        "[a-zA-Z]{3,}"
+      ],
+      "failIfTriggered": false
+    },
+    {
+      "id": "avoid_translated_connectives",
+      "description": "Warn on overuse of direct-English connectives equivalents in unnatural spots.",
+      "patternHints": [
+        "அதனால்",
+        "எனவே",
+        "மற்றும்"
+      ],
+      "failIfTriggered": false
+    }
+  ],
+  "thresholds": {
+    "minNotTranslationScore": 80
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFFBEB"/>
+<circle cx="340" cy="300" r="60" fill="#111"/>
+<circle cx="520" cy="300" r="60" fill="#111"/>
+<text x="280" y="220" font-size="26" font-family="Arial" fill="#111">Thank you!</text>
+</svg>

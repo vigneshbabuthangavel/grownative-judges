@@ -1,0 +1,12 @@
+{
+  "assessmentSummary": {
+    "overall": "pass",
+    "highlights": [
+      "Kid-safe content approved",
+      "Level 2 grammar caps respected",
+      "Native script purity above threshold",
+      "No inline translation detected"
+    ],
+    "warnings": []
+  }
+}

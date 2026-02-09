@@ -1,0 +1,31 @@
+{
+  "id": "reinforcement_plan_v1",
+  "description": "Intentional repetition of target words across 3 stories to reinforce comprehension.",
+  "cycleSizeStories": 3,
+  "rules": {
+    "targetWordsPerCycle": 8,
+    "repeatPerWordMin": 3,
+    "repeatPerWordMax": 6,
+    "distribution": "Spread repeats across pages; avoid clustering on a single page."
+  },
+  "example": {
+    "language": "ta",
+    "level": 2,
+    "topic": "Animals",
+    "targetWordIds": [
+      "w_koala",
+      "w_maram",
+      "w_pasi",
+      "w_amma",
+      "w_elai",
+      "w_sapidu",
+      "w_nandri",
+      "w_thoongu"
+    ],
+    "storyIds": [
+      "st_ta_l2_animals_koala_01",
+      "st_ta_l2_animals_bird_01",
+      "st_ta_l2_animals_cat_01"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "dimensions": [
+    {
+      "id": "fear",
+      "description": "Avoid scary events, threats, or horror tone.",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "examples": [
+        "No monsters, no kidnapping, no threats."
+      ]
+    },
+    {
+      "id": "violence",
+      "description": "No physical harm or fighting.",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "examples": [
+        "No weapons, no injury depiction."
+      ]
+    },
+    {
+      "id": "shame",
+      "description": "Avoid humiliation, bullying, or shaming language.",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "examples": [
+        "No 'you are bad' messaging; use gentle correction."
+      ]
+    },
+    {
+      "id": "manipulation",
+      "description": "No persuasion to share personal info or do risky acts.",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "examples": [
+        "Never ask real name/address/school."
+      ]
+    },
+    {
+      "id": "prosocial",
+      "description": "Encourage kindness, curiosity, responsibility.",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "examples": [
+        "Sharing, helping, thanking, teamwork."
+      ]
+    }
+  ],
+  "thresholds": {
+    "passScore": 85,
+    "failOnAny": [
+      "violence",
+      "manipulation"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "language": {
+    "name": "Japanese",
+    "native": "日本語",
+    "family": "Japonic",
+    "structure": "Agglutinative (SOV with particles)"
+  },
+  "cultural_logic": {
+    "locale": "ja-JP",
+    "language": "Japanese",
+    "structural_constraints": {
+      "sentence_order": "SOV",
+      "particle_dependency": "High",
+      "honorific_strategy": "Relationship-Based",
+      "script": {
+        "base": "Kana/Kanji",
+        "learning_curve": "Complex"
+      }
+    },
+    "storytelling_templates": {
+      "formal_opening": "昔々あるところに (Once upon a time...)",
+      "informal_opening": "ある日のこと (One day...)",
+      "character_speech_patterns": {
+        "elder": "uses '-masu' / '-desu' forms, sophisticated vocabulary",
+        "child": "uses dictionary forms / playful particles like 'yo' or 'ne'"
+      }
+    }
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Hiro",
+      "Ren",
+      "Yuki",
+      "Kaito"
+    ],
+    "protagonist_girls": [
+      "Hana",
+      "Aoi",
+      "Sakura",
+      "Mei"
+    ],
+    "elders_male": [
+      "Ojiisan",
+      "Otoosan"
+    ],
+    "elders_female": [
+      "Obaasan",
+      "Okaasan"
+    ],
+    "locked_behavior": "Bowing as a greeting; removal of outdoor shoes (replaced by indoor slippers/uwabaki)."
+  },
+  "visual_identity": {
+    "characters": {
+      "protagonist": {
+        "base": "Constant: Japanese features, large expressive eyes, same face shape.",
+        "boy": "Outfit: Navy blue Randoseru, yellow safety school hat, crisp white polo, dark shorts. Hair: straight jet black with a sharp fringe.",
+        "girl": "Outfit: Navy blue school skirt, yellow safety school hat, crisp white polo. Hair: straight jet black with fringe and yellow hairbands."
+      },
+      "support": "Elderly Japanese person. HAIR: Minimalist receding silver hair. OUTFIT: Grey linen cardigan, pressed trousers, clean white socks (tabi-style), simple wire-rimmed glasses."
+    },
+    "architecture": {
+      "style": "Modern Japanese urban or Machiya style. Clean wooden lines, sliding Shoji screens.",
+      "threshold": "Clean step for shoe removal.",
+      "horizon": "High-rise skyline or distant mountains."
+    },
+    "environment": "Soft morning light, manicured pine trees, cherry blossoms (Sakura), or perfectly clean grey asphalt with bright white painted lines.",
+    "clothing": {
+      "men": "Business-casual linen shirts or traditional dark Yukata.",
+      "women": "Simple modest dresses or colorful Kimono with Obi sash.",
+      "children": "School uniforms (Randoseru) or simple, high-quality basics."
+    },
+    "props": {
+      "locked": [
+        "Brightly lit vending machine",
+        "Bento box with partitioned food",
+        "Ceramic tea set",
+        "Blue Shinkansen train in far background"
+      ],
+      "textures": [
+        "Tatami straw mats",
+        "Polished dark wood",
+        "Washi paper textures"
+      ]
+    }
+  },
+  "urban_settings": {
+    "busy_road": "Narrow paved streets, high-speed trains, cyclists with baskets, neat yellow tactile paving at crossings.",
+    "neighborhood": "Vending machines on every corner, small community shrines, overhead wires in neat bundles."
+  },
+  "negatives": {
+    "avoid": [
+      "Outdoor shoes on tatami",
+      "Loud public shouting",
+      "Messy street layouts",
+      "Aggressive facial expressions"
+    ],
+    "emotion_guideline": "Stoic warmth, quiet discipline, deep respect for elders."
+  },
+  "character_anchors": {
+    "protagonist": {
+      "base": "Constant: Japanese features, large expressive eyes, same face shape.",
+      "boy": "Outfit: Navy blue Randoseru (backpack), yellow safety school hat, white polo, dark shorts. Hair: straight jet black with fringe.",
+      "girl": "Outfit: Navy blue school skirt, yellow safety school hat, white polo. Hair: straight jet black with fringe and yellow hairbands."
+    },
+    "support": "Constant: Grey linen cardigan, wire-rimmed glasses, silver receding hair, calm expression."
+  },
+  "plot_anchors": {
+    "crossing_in_progress": "Composition: Boy and elderly man WALKING TOGETHER at a neat paved crossing. Cars stopped in background.",
+    "crossing_completed": "Composition: Boy and elderly man have ARRIVED on the opposite sidewalk. The crossing is behind them.",
+    "greeting": "Composition: Boy performing a slight bow (ojigi). Elderly man nodding warmly. Clean residential background."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sentences": [
+    {
+      "native": "அருண் பள்ளியிலிருந்து பூங்காவிற்கு நடந்து கொண்டிருக்கிறான்.",
+      "english": "Arun is walking from school to the park."
+    },
+    {
+      "native": "அவன் சாலையில் தாத்தா நின்று கொண்டிருப்பதை பார்க்கிறான்.",
+      "english": "He sees Thatha standing on the road."
+    },
+    {
+      "native": "கார்கள் வேகமாக செல்கின்றன, ஆனால் தாத்தா காத்திருக்கிறார்.",
+      "english": "The cars go fast but Thatha is waiting."
+    },
+    {
+      "native": "அருண் தாத்தாவிடம் சென்று உதவி செய்ய கேட்கிறான்.",
+      "english": "Arun goes to Thatha and asks to help."
+    },
+    {
+      "native": "அருண் தாத்தாவின் கையை அன்பாகப் பிடித்துக் கொள்கிறான்.",
+      "english": "Arun is holding Thatha's hand lovingly."
+    },
+    {
+      "native": "அவர்கள் இருவரும் சேர்ந்து சாலையை கடந்து கொண்டிருக்கிறார்கள்.",
+      "english": "They both are crossing the road together."
+    },
+    {
+      "native": "இப்போது அவர்கள் சாலையின் மறுபக்கம் பாதுகாப்பாக இருக்கிறார்கள்.",
+      "english": "Now they are safe on the other side."
+    },
+    {
+      "native": "தாத்தா மகிழ்ச்சியாக அருணைப் பார்த்துச் சிரித்துக் கொண்டிருக்கிறார்.",
+      "english": "Thatha is looking at Arun and smiling happily."
+    }
+  ],
+  "_aiMeta": {
+    "modelUsed": "gemini-3-pro-preview",
+    "isFallback": false,
+    "isGemini3": false
+  }
+}

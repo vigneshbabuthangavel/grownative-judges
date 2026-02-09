@@ -1,0 +1,45 @@
+{
+  "id": "rubrics/write_sentence.l2.json",
+  "level": 2,
+  "type": "write_sentence",
+  "criteria": [
+    {
+      "id": "uses_required_word",
+      "description": "Uses at least one must-use word.",
+      "maxPoints": 40
+    },
+    {
+      "id": "script_purity",
+      "description": "Mostly native script (Tamil) characters.",
+      "maxPoints": 25
+    },
+    {
+      "id": "length_ok",
+      "description": "<= 8 words; simple structure.",
+      "maxPoints": 20
+    },
+    {
+      "id": "positive_tone",
+      "description": "Neutral or positive tone.",
+      "maxPoints": 15
+    }
+  ],
+  "scoring": {
+    "pass": 70,
+    "warn": 55
+  },
+  "feedbackTemplates": [
+    {
+      "band": "pass",
+      "message": "Great job! You used the word and wrote a clear sentence."
+    },
+    {
+      "band": "warn",
+      "message": "Nice try! Can you make it a bit shorter and use the must-use word?"
+    },
+    {
+      "band": "fail",
+      "message": "Let’s try again together. Use the word and write a short sentence."
+    }
+  ]
+}

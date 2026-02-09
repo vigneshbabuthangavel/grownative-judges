@@ -1,0 +1,166 @@
+{
+  "version": "v2_puppet",
+  "premise": "A young boy helps a grandfather cross the road",
+  "cast_lock": {
+    "max_humans": 2,
+    "allowed_humans": [
+      "protagonist",
+      "support"
+    ],
+    "no_duplicates": true,
+    "no_extra_children": true,
+    "no_crowds": true,
+    "background_people": "none",
+    "animal_policy": "no animals unless explicitly listed"
+  },
+  "beats": [
+    {
+      "page": 1,
+      "layout": {
+        "poseId": "idle",
+        "x": 20,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    },
+    {
+      "page": 2,
+      "layout": {
+        "poseId": "walk_right",
+        "x": 30,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    },
+    {
+      "page": 3,
+      "layout": {
+        "poseId": "talk",
+        "x": 40,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    },
+    {
+      "page": 4,
+      "layout": {
+        "poseId": "walk_right",
+        "x": 50,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    },
+    {
+      "page": 5,
+      "layout": {
+        "poseId": "idle",
+        "x": 60,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    },
+    {
+      "page": 6,
+      "layout": {
+        "poseId": "talk",
+        "x": 70,
+        "y": 80,
+        "size": 1,
+        "isFlipped": false
+      },
+      "protagonist": {
+        "position": "stage",
+        "action": "acting",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "stage",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A simple clear stage"
+      },
+      "constraints": []
+    }
+  ],
+  "visual_stage": {
+    "setting_description": "A simple, clean background setting relevant to the story.",
+    "style_notes": "Watercolor illustration on white paper texture"
+  }
+}

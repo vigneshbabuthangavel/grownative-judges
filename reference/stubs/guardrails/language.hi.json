@@ -1,0 +1,58 @@
+{
+  "language": "hi",
+  "script": {
+    "unicodeRanges": [
+      "Devanagari: U+0900–U+097F"
+    ],
+    "minScriptPurity": 92
+  },
+  "levels": [
+    {
+      "level": 1,
+      "caps": {
+        "maxWordsPerSentence": 4,
+        "maxSentencesPerPage": 1,
+        "maxClauseDepth": 0
+      },
+      "allowedPatterns": [
+        "[NOUN] [VERB].",
+        "[NOUN] [ADJ]."
+      ],
+      "disallowed": [
+        "complex clauses",
+        "loanwords"
+      ]
+    },
+    {
+      "level": 2,
+      "caps": {
+        "maxWordsPerSentence": 6,
+        "maxSentencesPerPage": 2,
+        "maxClauseDepth": 0
+      },
+      "allowedPatterns": [
+        "[PRONOUN] [VERB] [NOUN].",
+        "[NOUN] [ADJ] [NOUN]."
+      ],
+      "disallowed": [
+        "nested clauses",
+        "long compound sentences"
+      ]
+    }
+  ],
+  "lexical": {
+    "avoidLoanwordsUntilLevel": 4,
+    "tabooTokens": [
+      "kill",
+      "gun",
+      "blood",
+      "sex",
+      "drugs",
+      "suicide"
+    ],
+    "okayLoanwords": [
+      "bus",
+      "school"
+    ]
+  }
+}

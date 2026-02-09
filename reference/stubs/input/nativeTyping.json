@@ -1,0 +1,57 @@
+{
+  "languages": [
+    "ta",
+    "hi",
+    "en"
+  ],
+  "modes": [
+    {
+      "id": "os_ime",
+      "label": "OS Keyboard / IME",
+      "description": "Use built-in input methods (Windows/macOS/iOS/Android) for native scripts.",
+      "supportedLanguages": [
+        "ta",
+        "hi",
+        "en"
+      ]
+    },
+    {
+      "id": "phonetic_helper",
+      "label": "Phonetic Helper",
+      "description": "Optional helper that converts phonetic Latin input to native script for practice writing.",
+      "supportedLanguages": [
+        "ta",
+        "hi"
+      ]
+    },
+    {
+      "id": "transliteration_display",
+      "label": "Transliteration Display (optional)",
+      "description": "Show transliteration as a learning aid without mixing into native text.",
+      "supportedLanguages": [
+        "ta",
+        "hi"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "language": "ta",
+      "primary": "OS Tamil IME",
+      "fallback": "Phonetic helper (amma → அம்மா)",
+      "notes": "Keep transliteration separate; enforce script purity checks for submitted writing."
+    },
+    {
+      "language": "hi",
+      "primary": "OS Hindi IME",
+      "fallback": "Phonetic helper (mera → मेरा)",
+      "notes": "Prefer Devanagari output; accept phonetic input only if converted."
+    },
+    {
+      "language": "en",
+      "primary": "Standard keyboard",
+      "fallback": "n/a",
+      "notes": "English input normal."
+    }
+  ]
+}

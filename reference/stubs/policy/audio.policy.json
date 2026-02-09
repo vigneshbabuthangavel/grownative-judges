@@ -1,0 +1,18 @@
+{
+  "id": "audio_policy_v1",
+  "scope": "Optional read-aloud feature",
+  "privacy": {
+    "noRecording": true,
+    "noVoiceStorage": true,
+    "noBiometrics": true,
+    "localOnly": true
+  },
+  "safety": {
+    "kidSafeOnly": true,
+    "noPersonalDataPrompts": true
+  },
+  "quality": {
+    "preferNaturalVoices": "Use a higher-quality TTS voice when available; fall back gracefully.",
+    "pronunciationHints": "Allow per-language pronunciation hints without altering native text."
+  }
+}

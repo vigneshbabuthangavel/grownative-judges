@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FAF5FF"/>
+<circle cx="300" cy="280" r="130" fill="#D8B4FE"/>
+<circle cx="420" cy="300" r="55" fill="#111"/>
+<text x="520" y="240" font-size="24" font-family="Arial" fill="#111">Help scene</text>
+</svg>

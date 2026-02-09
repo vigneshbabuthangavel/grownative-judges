@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#FFF7ED"/>
+<circle cx="120" cy="120" r="70" fill="#FED7AA"/>
+<rect x="240" y="80" width="340" height="200" rx="24" fill="#F3E8FF"/>
+<text x="270" y="150" font-size="28" font-family="Arial" fill="#111">Level 1</text>
+<text x="270" y="190" font-size="24" font-family="Arial" fill="#111">Nature</text>
+<text x="270" y="230" font-size="20" font-family="Arial" fill="#111">English</text>
+</svg>

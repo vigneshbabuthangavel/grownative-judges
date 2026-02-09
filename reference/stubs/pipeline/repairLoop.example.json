@@ -1,0 +1,31 @@
+{
+  "id": "repair_loop_example_v1",
+  "pipeline": [
+    "plan",
+    "generate",
+    "review",
+    "repair",
+    "review",
+    "package"
+  ],
+  "example": {
+    "attempt": 1,
+    "reviewResult": {
+      "status": "fail",
+      "failedChecks": [
+        "global_safety",
+        "topic_fit"
+      ],
+      "notes": "Contains a fear-inducing chase scene; topic drifted to danger."
+    },
+    "repairInstructions": [
+      "Remove any chase/threat content; keep tone calm.",
+      "Stay within topic 'Animals' and focus on helping/sharing.",
+      "Level 2 caps: short sentences, max 6 words per sentence."
+    ],
+    "attempt2": {
+      "status": "pass",
+      "notes": "Safe, topic-aligned, level-appropriate."
+    }
+  }
+}

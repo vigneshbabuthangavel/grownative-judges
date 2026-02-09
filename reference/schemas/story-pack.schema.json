@@ -1,0 +1,330 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/story-pack.schema.json",
+  "title": "GrowNative StoryPack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "storyId",
+    "language",
+    "level",
+    "topic",
+    "title",
+    "pages",
+    "targetWords",
+    "exercises",
+    "qa"
+  ],
+  "properties": {
+    "storyId": {
+      "type": "string",
+      "pattern": "^st_[a-z0-9_\\-]+$"
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "ta",
+        "hi",
+        "en"
+      ]
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 8
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "native"
+      ],
+      "properties": {
+        "native": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transliteration": {
+          "type": "string"
+        },
+        "en_gloss": {
+          "type": "string"
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string"
+        },
+        "generator": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pageNumber",
+          "text",
+          "image",
+          "targetWordIds"
+        ],
+        "properties": {
+          "pageNumber": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "native"
+            ],
+            "properties": {
+              "native": {
+                "type": "string",
+                "minLength": 1
+              },
+              "transliteration": {
+                "type": "string"
+              }
+            }
+          },
+          "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "prompt",
+              "alt"
+            ],
+            "properties": {
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "styleHints": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "targetWordIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^w_[a-z0-9_\\-]+$"
+            }
+          }
+        }
+      }
+    },
+    "targetWords": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "native",
+          "meaning_en"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^w_[a-z0-9_\\-]+$"
+          },
+          "native": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "transliteration": {
+            "type": "string"
+          },
+          "example_native": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "exercises": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "prompt",
+          "mustUseWordIds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^ex_[a-z0-9_\\-]+$"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "write_sentence",
+              "write_paragraph",
+              "match_meaning"
+            ]
+          },
+          "prompt": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "native"
+            ],
+            "properties": {
+              "native": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en_hint": {
+                "type": "string"
+              }
+            }
+          },
+          "mustUseWordIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^w_[a-z0-9_\\-]+$"
+            }
+          },
+          "rubricRef": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "review",
+        "scores",
+        "checks"
+      ],
+      "properties": {
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kidSafeApproved",
+            "reasons"
+          ],
+          "properties": {
+            "kidSafeApproved": {
+              "type": "boolean"
+            },
+            "reasons": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "readability",
+            "topicFit",
+            "ethics",
+            "nativeLikeness",
+            "notTranslation"
+          ],
+          "properties": {
+            "readability": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "topicFit": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "ethics": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nativeLikeness": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "notTranslation": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "checks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "status",
+              "details"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "pass",
+                  "warn",
+                  "fail"
+                ]
+              },
+              "details": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

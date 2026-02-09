@@ -1,0 +1,196 @@
+{
+  "version": "v2_puppet",
+  "premise": "Little Aravind, working in the rice paddies, discovered something magical when the sun began to set. Because it shone so brightly, Aravind knew he needed to hide the fallen star. Even though he tried, the star's warm light peeked from his tiny hands, illuminating the village.",
+  "visual_stage": {
+    "setting_description": "Vast, terraced emerald-green rice paddies reflecting a vibrant orange and purple sunset. In the distant background, a small silhouette of a traditional village sits under a darkening sky. The ground is wet and shimmering.",
+    "style_notes": "Soft watercolor style with glowing atmospheric lighting and textured paper effects."
+  },
+  "cast_lock": {
+    "max_humans": 2,
+    "allowed_humans": [
+      "protagonist",
+      "support"
+    ],
+    "no_duplicates": true,
+    "no_extra_children": true,
+    "no_crowds": true,
+    "background_people": "none",
+    "animal_policy": "no animals unless explicitly listed"
+  },
+  "beats": [
+    {
+      "page": 1,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "left foreground",
+        "action": "bending over to look at something in the mud",
+        "emotion": "low"
+      },
+      "support": {
+        "position": "side",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "The sun is low on the horizon, casting long shadows across the paddies."
+      },
+      "constraints": [
+        "Aravind is alone in the field",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "idle",
+        "x": 20,
+        "y": 85,
+        "size": 1,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 2,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "center-left",
+        "action": "reeling back slightly as a bright light emerges from the ground",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "side",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "A brilliant white-gold spark is visible at Aravind's feet, contrasting with the sunset."
+      },
+      "constraints": [
+        "Focus on the light's reflection in the water",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "surprise",
+        "x": 35,
+        "y": 82,
+        "size": 1,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 3,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "center",
+        "action": "cupping his hands together near his chest to hold the star",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "side",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "Aravind's face is brightly lit from below by the star in his hands."
+      },
+      "constraints": [
+        "The star's light should be intense and warm",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "talk",
+        "x": 50,
+        "y": 85,
+        "size": 1.1,
+        "isFlipped": true
+      }
+    },
+    {
+      "page": 4,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "center-right",
+        "action": "walking quickly toward the village, clutching his hands to his chest",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "side",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "The sky is getting darker, making the glow from his hands even more prominent."
+      },
+      "constraints": [
+        "Aravind is trying to hide the light under his tunic",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "walk",
+        "x": 65,
+        "y": 85,
+        "size": 1,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 5,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "right side",
+        "action": "hurrying as light beams begin to shoot out between his fingers",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "side",
+        "action": "watching",
+        "emotion": "low"
+      },
+      "environment": {
+        "notes": "The surrounding rice plants are illuminated by golden streaks of light."
+      },
+      "constraints": [
+        "Light beams should look like rays of a sun",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "run",
+        "x": 80,
+        "y": 85,
+        "size": 1,
+        "isFlipped": false
+      }
+    },
+    {
+      "page": 6,
+      "shot": "WIDE_Action",
+      "protagonist": {
+        "position": "right center",
+        "action": "standing near the village entrance, the star's light flooding the area",
+        "emotion": "medium"
+      },
+      "support": {
+        "position": "far left",
+        "action": "an elderly villager looking toward Aravind in amazement",
+        "emotion": "medium"
+      },
+      "environment": {
+        "notes": "The village houses are bathed in a magical, warm starlight that banishes the dusk."
+      },
+      "constraints": [
+        "The light from Aravind's hands is the primary light source",
+        "exactly 2 humans only",
+        "no duplicate protagonist"
+      ],
+      "layout": {
+        "poseId": "happy",
+        "x": 70,
+        "y": 85,
+        "size": 1,
+        "isFlipped": true
+      }
+    }
+  ]
+}

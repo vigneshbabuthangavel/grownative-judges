@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/qa-not-translation.schema.json",
+  "title": "Not-Translation QA Checks",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "language",
+    "checks",
+    "thresholds"
+  ],
+  "properties": {
+    "language": {
+      "type": "string",
+      "enum": [
+        "ta",
+        "hi",
+        "en"
+      ]
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "description",
+          "patternHints",
+          "failIfTriggered"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "patternHints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "failIfTriggered": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minNotTranslationScore"
+      ],
+      "properties": {
+        "minNotTranslationScore": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#F3E8FF"/>
+<circle cx="210" cy="190" r="90" fill="#D8B4FE"/>
+<circle cx="255" cy="160" r="45" fill="#D8B4FE"/>
+<rect x="330" y="90" width="260" height="180" rx="24" fill="#FFEDD5"/>
+<text x="360" y="155" font-size="28" font-family="Arial" fill="#111">Level 2</text>
+<text x="360" y="195" font-size="24" font-family="Arial" fill="#111">Kindness</text>
+<text x="360" y="235" font-size="20" font-family="Arial" fill="#111">Tamil</text>
+</svg>

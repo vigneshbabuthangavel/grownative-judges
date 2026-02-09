@@ -1,0 +1,39 @@
+{
+  "safety": {
+    "ageRange": "6-12",
+    "banList": [
+      "no violence, gore, horror",
+      "no adult themes or romance",
+      "no self-harm, bullying, humiliation",
+      "no illegal activities or weapons",
+      "no medical, legal, or mental health advice",
+      "no frightening imagery or threats"
+    ],
+    "noPersonalDataRequests": true
+  },
+  "privacy": {
+    "noAccounts": true,
+    "noAnalytics": true,
+    "localOnly": true,
+    "dataMinimizationNotes": "Only anonymous pen name + local progress stored on device. No real name/email/location collected."
+  },
+  "content": {
+    "tone": "Warm, encouraging, calm, age-appropriate",
+    "avoidTopics": [
+      "politics",
+      "religion persuasion",
+      "war",
+      "death",
+      "crime",
+      "dating"
+    ],
+    "allowedValues": [
+      "kindness",
+      "sharing",
+      "curiosity",
+      "helping others",
+      "gratitude",
+      "respect"
+    ]
+  }
+}

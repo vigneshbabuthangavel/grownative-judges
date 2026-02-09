@@ -1,0 +1,73 @@
+{
+  "language": {
+    "name": "English",
+    "family": "West Germanic"
+  },
+  "cultural_logic": {
+    "locale": "en-US",
+    "language": "English",
+    "structural_constraints": {
+      "sentence_order": "SVO",
+      "particle_dependency": "None",
+      "honorific_strategy": "Casual"
+    },
+    "storytelling_templates": {
+      "formal_opening": "Once upon a time...",
+      "character_speech_patterns": {
+        "elder": "Friendly",
+        "child": "Inquisitive"
+      }
+    }
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Leo",
+      "Jack",
+      "Sam"
+    ],
+    "protagonist_girls": [
+      "Mia",
+      "Lily",
+      "Sarah"
+    ],
+    "elders_male": [
+      "Grandpa",
+      "Mr. Smith"
+    ],
+    "elders_female": [
+      "Grandma",
+      "Mrs. Jones"
+    ],
+    "locked_behavior": "Handshakes or friendly waves."
+  },
+  "visual_identity": {
+    "architecture": {
+      "style": "Suburban brick/siding houses, picket fences.",
+      "threshold": "Front porch or simple doorstep.",
+      "horizon": "Tree-lined streets or city skyline."
+    },
+    "environment": "Soft sunlight, lawns, deciduous trees.",
+    "clothing": {
+      "basics_men": "T-shirts, jeans, polos.",
+      "basics_women": "Jeans, blouses, athletic wear.",
+      "basics_kids": "T-shirts, hoodies, sneakers."
+    },
+    "props": [
+      "Yellow school bus",
+      "Backpacks",
+      "Park benches",
+      "Mailboxes"
+    ]
+  },
+  "urban_settings": {
+    "busy_road": "Wide paved roads, SUVs, traffic lights.",
+    "neighborhood": "Sidewalks, parks, driveways."
+  },
+  "negatives": {
+    "avoid": [
+      "Chaotic backgrounds",
+      "Unsafe street play"
+    ],
+    "emotion_guideline": "Politeness, independence, curious engagement."
+  }
+}

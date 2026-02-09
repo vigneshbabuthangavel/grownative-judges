@@ -1,0 +1,106 @@
+{
+  "language": {
+    "name": "Chinese",
+    "native": "中文",
+    "family": "Sino-Tibetan",
+    "structure": "SVO (Analytic)"
+  },
+  "cultural_logic": {
+    "locale": "zh-CN",
+    "language": "Chinese",
+    "structural_constraints": {
+      "sentence_order": "SVO",
+      "particle_dependency": "Low",
+      "honorific_strategy": "Title-Based"
+    },
+    "storytelling_templates": {
+      "formal_opening": "很久很久以前 (Long long ago...)",
+      "character_speech_patterns": {
+        "elder": "Wise/Proverb-heavy",
+        "child": "Brief/Direct"
+      }
+    }
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Wei",
+      "Bo",
+      "Jun",
+      "Zhan"
+    ],
+    "protagonist_girls": [
+      "Mei",
+      "Ling",
+      "Jia",
+      "Xue"
+    ],
+    "elders_male": [
+      "Yeye",
+      "Waigong"
+    ],
+    "elders_female": [
+      "Nainai",
+      "Waipo"
+    ],
+    "locked_behavior": "Offering tea with two hands; physical respect shown by a slight head tilt."
+  },
+  "visual_identity": {
+    "characters": {
+      "protagonist": {
+        "base": "Constant: Chinese features, large expressive eyes, same face shape.",
+        "boy": "Outfit: Bright red track-style school jacket with white stripes, denim trousers, yellow sneakers. Hair: thick black hair with a neat bowl-cut.",
+        "girl": "Outfit: Bright red track-style school skirt unit with white stripes, yellow sneakers. Hair: black hair with two small buns."
+      },
+      "support": "Elderly Chinese man. HAIR: Thinning grey hair. OUTFIT: Grey Mao-style jacket or simple collared cotton shirt. PROP: A small birdcage or a thermos of hot tea."
+    },
+    "architecture": {
+      "style": "Mix of modern high-rises and traditional gray-tiled Siheyuan courtyards.",
+      "threshold": "Clean step for shoe removal.",
+      "horizon": "High-rise skyline or distant mountains."
+    },
+    "environment": "Golden afternoon sun, weeping willow trees, stone bridges, terracotta planters with lotuses.",
+    "clothing": {
+      "men": "Simple button-up shirts or Tang-style jackets.",
+      "women": "Modern floral dresses or Qipao-inspired tops.",
+      "children": "Colorful primary-colored tracksuits or puffer vests."
+    },
+    "props": {
+      "locked": [
+        "Red paper lanterns",
+        "Electric scooters",
+        "Steaming bamboo dim sum baskets",
+        "Chinese calligraphy brush set"
+      ],
+      "textures": [
+        "Red silk embroidery",
+        "Polished bamboo",
+        "Gray stone masonry"
+      ]
+    }
+  },
+  "urban_settings": {
+    "busy_road": "Wide boulevards, electric bike lanes, green public buses, modern traffic signals with timers.",
+    "neighborhood": "Busy fruit stalls, elders playing Mahjong on folding tables, laundry hanging on bamboo poles."
+  },
+  "negatives": {
+    "avoid": [
+      "Ambiguous ethnicity",
+      "Stereotypical 'Old World' tropes unless requested",
+      "Lack of modern technology in urban scenes"
+    ],
+    "emotion_guideline": "Family-centric warmth, studious focus, respectful observation."
+  },
+  "character_anchors": {
+    "protagonist": {
+      "base": "Constant: Chinese features, large expressive eyes, same face shape.",
+      "boy": "Outfit: Bright red school jacket with white stripes, denim trousers, yellow sneakers. Hair: neat bowl-cut black hair.",
+      "girl": "Outfit: Bright red school skirt unit with white stripes, yellow sneakers. Hair: black hair with two small buns."
+    },
+    "support": "Constant: Grey Mao-style jacket, thinning grey hair, simple collared shirt, carrying a thermos."
+  },
+  "plot_anchors": {
+    "crossing_in_progress": "Composition: Boy and elder man WALKING ACROSS a wide boulevard. Electric scooters waiting in background.",
+    "crossing_completed": "Composition: Boy and elder man are SAFE on the sidewalk. Traffic is visible in the distance behind them.",
+    "greeting": "Composition: Boy tilting head slightly in respect, offering a thermos or tea cup with both hands to the elder man."
+  }
+}

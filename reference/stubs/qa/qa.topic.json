@@ -1,0 +1,52 @@
+{
+  "allowedTopics": [
+    "Animals",
+    "Family",
+    "Food",
+    "Nature",
+    "School",
+    "Friendship",
+    "Shapes & Colors"
+  ],
+  "disallowedTopics": [
+    "Weapons",
+    "War",
+    "Crime",
+    "Horror",
+    "Romance",
+    "Politics",
+    "Death"
+  ],
+  "topicLevelMatrix": [
+    {
+      "topic": "Animals",
+      "minLevel": 1,
+      "maxLevel": 8,
+      "notes": "Safe and easy for imagery + vocabulary."
+    },
+    {
+      "topic": "Family",
+      "minLevel": 1,
+      "maxLevel": 8,
+      "notes": "Keep culturally neutral; no personal data prompts."
+    },
+    {
+      "topic": "School",
+      "minLevel": 2,
+      "maxLevel": 8,
+      "notes": "Avoid real school details; fictional scenarios only."
+    },
+    {
+      "topic": "Friendship",
+      "minLevel": 2,
+      "maxLevel": 8,
+      "notes": "Great for pro-social values; avoid conflict intensity."
+    },
+    {
+      "topic": "Nature",
+      "minLevel": 1,
+      "maxLevel": 8,
+      "notes": "Safe; avoid disasters/fear."
+    }
+  ]
+}

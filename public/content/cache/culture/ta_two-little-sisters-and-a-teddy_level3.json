@@ -1,0 +1,102 @@
+{
+  "language": {
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "family": "Dravidian",
+    "structure": "Agglutinative (SOV)"
+  },
+  "cultural_logic": {
+    "locale": "ta-IN",
+    "language": "Tamil",
+    "structural_constraints": {
+      "sentence_order": "SOV",
+      "particle_dependency": "Medium",
+      "honorific_strategy": "Age-Based",
+      "script": {
+        "base": "Tamil",
+        "learning_curve": "Agglutinative"
+      }
+    },
+    "storytelling_templates": {
+      "formal_opening": "ஒரே ஒரு ஊர்ல... (In a certain town...)",
+      "informal_opening": "முன்னொரு காலத்துல... (Long, long ago...)",
+      "character_speech_patterns": {
+        "elder": "uses respectful suffixes (-nga)",
+        "child": "uses simple verb endings"
+      }
+    }
+  },
+  "naming": {
+    "protagonist_boys": [
+      "Arun",
+      "Kavin",
+      "Thamarai",
+      "Madhavan"
+    ],
+    "protagonist_girls": [
+      "Ananya",
+      "Kayal",
+      "Oviya",
+      "Meenakshi"
+    ],
+    "elders_male": [
+      "Thatha",
+      "Periyappa"
+    ],
+    "elders_female": [
+      "Paati",
+      "Chithamma"
+    ],
+    "locked_behavior": "Greeting with 'Vanakkam' (palms together). Removal of shoes before entering homes."
+  },
+  "visual_identity": {
+    "characters": {
+      "protagonist": {
+        "base": "Constant: medium-warm Tamil skin tone, large brown eyes, same face shape",
+        "boy": "Physical: medium-warm Tamil skin tone, short side-parted buzz cut, large brown eyes.",
+        "girl": "Physical: medium-warm Tamil skin tone, long braid with jasmine (optional), large brown eyes."
+      },
+      "support": "Support Character (Dynamic). If Elder: Crisp white Veshti, Cream shirt, silver hair. If Child: Similar school uniform or casual play clothes. If Animal: Native species (e.g. Deer, Monkey)."
+    },
+    "architecture": {
+      "style": "Tropical Dravidian architecture. Houses with vibrant ochre or pink compound walls.",
+      "threshold": "Front entrance must feature a 'Kolam' (geometric rice flour pattern) or 'Rangoli'.",
+      "horizon": "Distant temple tower or palm trees."
+    },
+    "environment": "Golden Hour lighting (5:00 PM), lush trees (Neem/Mango/Coconut), red soil paths.",
+    "clothing": {
+      "men": "Formal white Veshti (Dhoti) with Zari border; cream cotton shirts.",
+      "women": "Kanchipuram Silk Saree with jasmine flowers (Malli-poo) in braided hair.",
+      "children": "Options: Cobalt Blue school uniforms OR Casual bright cotton clothes."
+    },
+    "props": {
+      "locked": [
+        "Yellow auto-rickshaw with black top",
+        "Three-tier steel tiffin carrier",
+        "Tender coconut stall with green coconuts"
+      ],
+      "textures": [
+        "Brass lamps (Nilavilakku)",
+        "Woven palm leaf mats"
+      ]
+    }
+  },
+  "urban_settings": {
+    "busy_road": "Multi-lane asphalt mixed with dirt shoulders, auto-rickshaws, motorcycles.",
+    "neighborhood": "Overhead power lines, colorful hand-painted Tamil shop signs, traditional tiled houses mixed with modern apartments."
+  },
+  "negatives": {
+    "avoid": [
+      "Aggressive facial expressions",
+      "Walking with shoes inside",
+      "Overusing rickshaws for urban scenes",
+      "Western-style picket fences or lawns"
+    ],
+    "emotion_guideline": "Respectful, subtle reverence for elders; collective neighborhood joy."
+  },
+  "plot_anchors": {
+    "crossing_in_progress": "Blocking: Wide Tracking Shot. Action: Boy and Grandfather walking R->L on white zebra crossing. Vehicles (blue bus, yellow auto) stopped respectfully behind line. Atmosphere: Safe, Golden Hour.",
+    "crossing_completed": "Composition: Boy and old man have SAFELY REACHED the pavement. The busy road is now in the background.",
+    "greeting": "Composition: Boy standing respectfully, palms together in Wanakkam. Old man smiling, leaning slightly on cane."
+  }
+}

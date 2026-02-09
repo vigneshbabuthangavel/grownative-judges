@@ -1,0 +1,188 @@
+{
+  "storyId": "st_ta_l2_animals_koala_01",
+  "language": "ta",
+  "level": 2,
+  "topic": "Animals",
+  "title": {
+    "native": "கோஆலா குட்டியின் நாள்",
+    "transliteration": "Kōālā kuṭṭiyin nāḷ",
+    "en_gloss": "A koala cub's day"
+  },
+  "meta": {
+    "createdAt": "2025-12-27T12:19:30.283735Z",
+    "version": "0.1",
+    "generator": "stub-manual",
+    "notes": "Demo story pack for hackathon."
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": {
+        "native": "கோஆலா குட்டி மரத்தில் இருக்கிறது. அது பசியாய் இருக்கிறது."
+      },
+      "image": {
+        "prompt": "Cute koala cub sitting on a eucalyptus tree, bright sunny day, children’s book illustration, simple shapes, warm friendly style",
+        "alt": "A koala cub on a eucalyptus tree",
+        "styleHints": [
+          "kid-safe",
+          "bright",
+          "no fear"
+        ]
+      },
+      "targetWordIds": [
+        "w_koala",
+        "w_maram",
+        "w_pasi"
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "text": {
+        "native": "அம்மா கோஆலா இலைகளை கொண்டு வருகிறது. குட்டி மகிழ்ச்சியாக சாப்பிடுகிறது."
+      },
+      "image": {
+        "prompt": "Mother koala offering eucalyptus leaves to her cub, gentle happy scene, children’s book illustration",
+        "alt": "Mother koala gives leaves to her cub",
+        "styleHints": [
+          "gentle",
+          "smiles",
+          "no text on image"
+        ]
+      },
+      "targetWordIds": [
+        "w_amma",
+        "w_elai",
+        "w_sapidu"
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "text": {
+        "native": "குட்டி ‘நன்றி’ என்று சொல்கிறது. பின்னர் அது தூங்குகிறது."
+      },
+      "image": {
+        "prompt": "Koala cub smiling and then sleeping safely on a branch, cozy peaceful, children’s illustration",
+        "alt": "Koala cub says thanks and sleeps",
+        "styleHints": [
+          "calm",
+          "cozy"
+        ]
+      },
+      "targetWordIds": [
+        "w_nandri",
+        "w_thoongu"
+      ]
+    }
+  ],
+  "targetWords": [
+    {
+      "id": "w_koala",
+      "native": "கோஆலா",
+      "meaning_en": "koala",
+      "transliteration": "kōālā",
+      "example_native": "கோஆலா மரத்தில் இருக்கிறது."
+    },
+    {
+      "id": "w_maram",
+      "native": "மரம்",
+      "meaning_en": "tree",
+      "transliteration": "maram",
+      "example_native": "மரம் பெரியது."
+    },
+    {
+      "id": "w_pasi",
+      "native": "பசி",
+      "meaning_en": "hunger",
+      "transliteration": "pasi",
+      "example_native": "எனக்கு பசி."
+    },
+    {
+      "id": "w_amma",
+      "native": "அம்மா",
+      "meaning_en": "mother",
+      "transliteration": "ammā",
+      "example_native": "அம்மா இங்கே இருக்கிறார்."
+    },
+    {
+      "id": "w_elai",
+      "native": "இலை",
+      "meaning_en": "leaf",
+      "transliteration": "ilai",
+      "example_native": "இலை பச்சை."
+    },
+    {
+      "id": "w_sapidu",
+      "native": "சாப்பிடு",
+      "meaning_en": "eat",
+      "transliteration": "sāppiṭu",
+      "example_native": "நான் சாப்பிடுகிறேன்."
+    },
+    {
+      "id": "w_nandri",
+      "native": "நன்றி",
+      "meaning_en": "thank you",
+      "transliteration": "nanri",
+      "example_native": "நன்றி!"
+    },
+    {
+      "id": "w_thoongu",
+      "native": "தூங்கு",
+      "meaning_en": "sleep",
+      "transliteration": "thūṅgu",
+      "example_native": "குட்டி தூங்குகிறது."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_ta_l2_01",
+      "type": "write_sentence",
+      "prompt": {
+        "native": "ஒரு வாக்கியம் எழுதுங்கள்: ‘அம்மா’ அல்லது ‘நன்றி’ வார்த்தையை பயன்படுத்துங்கள்.",
+        "en_hint": "Write one sentence using 'amma' or 'nanri'."
+      },
+      "mustUseWordIds": [
+        "w_amma"
+      ],
+      "rubricRef": "rubrics/write_sentence.l2.json"
+    }
+  ],
+  "qa": {
+    "review": {
+      "kidSafeApproved": true,
+      "reasons": [
+        "No fear/violence",
+        "No personal data prompts",
+        "Pro-social: gratitude"
+      ]
+    },
+    "scores": {
+      "readability": 88,
+      "topicFit": 95,
+      "ethics": 96,
+      "nativeLikeness": 86,
+      "notTranslation": 90
+    },
+    "checks": [
+      {
+        "id": "global_safety",
+        "status": "pass",
+        "details": "No banned topics detected; tone is gentle."
+      },
+      {
+        "id": "script_purity",
+        "status": "pass",
+        "details": "Tamil script purity estimated > 95%."
+      },
+      {
+        "id": "level_caps",
+        "status": "pass",
+        "details": "Level 2 caps respected (short sentences; low clause depth)."
+      },
+      {
+        "id": "not_translation",
+        "status": "pass",
+        "details": "No inline translation; transliteration kept separate fields."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sentences": [
+    {
+      "english": "A"
+    },
+    {
+      "english": "B"
+    }
+  ],
+  "_aiMeta": {
+    "modelUsed": "gemini-2.0-flash-thinking-exp",
+    "isFallback": false,
+    "isGemini3": false
+  }
+}

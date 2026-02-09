@@ -1,0 +1,38 @@
+{
+  "language": "ta",
+  "heuristics": [
+    {
+      "id": "script_purity",
+      "description": "Percent of characters in Tamil Unicode range vs Latin digits/punct.",
+      "signalType": "statistical",
+      "examples": [
+        "Expected Tamil letters dominate; minimal Latin."
+      ]
+    },
+    {
+      "id": "english_word_order",
+      "description": "Detect repeated SVO patterns that mimic English too rigidly for long sentences.",
+      "signalType": "pattern",
+      "examples": [
+        "Avoid unnatural calques for connective phrases."
+      ]
+    },
+    {
+      "id": "loanword_density",
+      "description": "Detect too many English loanwords before allowed level.",
+      "signalType": "dictionary",
+      "examples": [
+        "Avoid heavy English mixing at Levels 1–3."
+      ]
+    }
+  ],
+  "weights": {
+    "script_purity": 0.45,
+    "english_word_order": 0.3,
+    "loanword_density": 0.25
+  },
+  "thresholds": {
+    "pass": 80,
+    "warn": 65
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFF7ED"/>
+<rect x="380" y="210" width="140" height="240" rx="16" fill="#111"/>
+<circle cx="450" cy="200" r="90" fill="#D8B4FE"/>
+<text x="160" y="140" font-size="28" font-family="Arial" fill="#111">A big tree</text>
+</svg>

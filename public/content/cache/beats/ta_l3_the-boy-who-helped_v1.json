@@ -1,0 +1,189 @@
+{
+  "project_settings": {
+    "shot_type_lock": "Wide Shot Only",
+    "resolution_limit": "500px",
+    "spatial_logic": "Sidewalk A -> Crossing -> Sidewalk B"
+  },
+  "beats": [
+    {
+      "page": 1,
+      "action": "Wide shot. ZONE: Sidewalk A. Shows Arun, wearing a blue shirt and red backpack, on Sidewalk A, preparing to cross. Heavy traffic is visible. Elderly man is visible further down Sidewalk A.",
+      "environment": {
+        "notes": "Busy city street, lots of traffic, pedestrian crossing clearly marked.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Scene"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, center frame, closer to the crossing",
+        "support": "Sidewalk A, further down, near curb",
+        "props": "Red backpack, Wooden cane"
+      }
+    },
+    {
+      "page": 2,
+      "action": "Wide shot. ZONE: Sidewalk A. Focuses on the road. Many cars speeding across the road.",
+      "environment": {
+        "notes": "Cars are speeding and there is a lot of traffic.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Road"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, near Arun, out of focus.",
+        "support": "N/A, focus is on the road.",
+        "props": "Cars speeding. Wooden cane."
+      }
+    },
+    {
+      "page": 3,
+      "action": "Wide shot. ZONE: Sidewalk A. An old man stands alone by the roadside with a cane. He's wearing a white dhoti and circular glasses.",
+      "environment": {
+        "notes": "The street is busy with cars.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Elderly man"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, near Arun, out of focus.",
+        "support": "Sidewalk A, near curb, looking anxious",
+        "props": "White dhoti, Circular glasses, Wooden cane."
+      }
+    },
+    {
+      "page": 4,
+      "action": "Wide shot. ZONE: Sidewalk A. Old man looks terrified at the cars speeding past.",
+      "environment": {
+        "notes": "Sound of honking cars",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Elderly Man"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, near Arun, out of focus.",
+        "support": "Sidewalk A, near curb, reacting to traffic",
+        "props": "White dhoti, Circular glasses, Wooden cane"
+      }
+    },
+    {
+      "page": 5,
+      "action": "Wide shot. ZONE: Sidewalk A. Arun notices the old man and starts walking towards him quickly.",
+      "environment": {
+        "notes": "Traffic noise",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man."
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, walking towards elderly man",
+        "support": "Sidewalk A, near curb, still looking scared",
+        "props": "Red backpack, Wooden cane"
+      }
+    },
+    {
+      "page": 6,
+      "action": "Wide shot. ZONE: Sidewalk A. Arun reaches the old man and gently takes his hand.",
+      "environment": {
+        "notes": "Traffic noise reduced",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man."
+      },
+      "blocking": {
+        "protagonist": "Sidewalk A, holding elderly man's hand",
+        "support": "Sidewalk A, accepting Arun's help",
+        "props": "Red backpack, Wooden cane."
+      }
+    },
+    {
+      "page": 7,
+      "action": "Wide shot. ZONE: Crossing. Arun and the old man step onto the zebra crossing. Cars begin to stop.",
+      "environment": {
+        "notes": "Sound of brakes.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man on zebra crossing"
+      },
+      "blocking": {
+        "protagonist": "Crossing, holding elderly man's hand",
+        "support": "Crossing, walking with Arun",
+        "props": "Red backpack, Wooden cane"
+      }
+    },
+    {
+      "page": 8,
+      "action": "Wide shot. ZONE: Crossing. Arun and the old man continue to walk across the zebra crossing safely. Cars are stopped.",
+      "environment": {
+        "notes": "Relatively quiet.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man on zebra crossing"
+      },
+      "blocking": {
+        "protagonist": "Crossing, holding elderly man's hand",
+        "support": "Crossing, walking with Arun",
+        "props": "Red backpack, Wooden cane"
+      }
+    },
+    {
+      "page": 9,
+      "action": "Wide shot. ZONE: Sidewalk B. Arun and the old man have successfully crossed to Sidewalk B.",
+      "environment": {
+        "notes": "Normal city noises.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man on Sidewalk B"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk B, still holding elderly man's hand.",
+        "support": "Sidewalk B, safe on the other side.",
+        "props": "Red backpack, Wooden cane"
+      }
+    },
+    {
+      "page": 10,
+      "action": "Wide shot. ZONE: Sidewalk B. The old man smiles at Arun and thanks him.",
+      "environment": {
+        "notes": "Normal city noises",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide",
+        "angle": "Eye-Level",
+        "focus": "Arun and elderly man on Sidewalk B"
+      },
+      "blocking": {
+        "protagonist": "Sidewalk B, smiling back at the old man.",
+        "support": "Sidewalk B, expressing gratitude.",
+        "props": "Red backpack, Wooden cane"
+      }
+    }
+  ]
+}

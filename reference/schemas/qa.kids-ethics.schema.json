@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/qa-kids-ethics.schema.json",
+  "title": "Kids Ethics QA Rubric",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "dimensions",
+    "thresholds"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "description",
+          "scale",
+          "examples"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "scale": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "min",
+              "max"
+            ],
+            "properties": {
+              "min": {
+                "type": "integer"
+              },
+              "max": {
+                "type": "integer"
+              }
+            }
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "passScore",
+        "failOnAny"
+      ],
+      "properties": {
+        "passScore": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "failOnAny": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

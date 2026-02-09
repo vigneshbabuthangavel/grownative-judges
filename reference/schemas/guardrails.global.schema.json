@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grownative.dev/schemas/global-guardrails.schema.json",
+  "title": "GrowNative Global Safety Guardrails",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "safety",
+    "privacy",
+    "content"
+  ],
+  "properties": {
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ageRange",
+        "banList",
+        "noPersonalDataRequests"
+      ],
+      "properties": {
+        "ageRange": {
+          "type": "string"
+        },
+        "banList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "noPersonalDataRequests": {
+          "type": "boolean"
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "noAccounts",
+        "noAnalytics",
+        "localOnly"
+      ],
+      "properties": {
+        "noAccounts": {
+          "type": "boolean"
+        },
+        "noAnalytics": {
+          "type": "boolean"
+        },
+        "localOnly": {
+          "type": "boolean"
+        },
+        "dataMinimizationNotes": {
+          "type": "string"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tone",
+        "avoidTopics",
+        "allowedValues"
+      ],
+      "properties": {
+        "tone": {
+          "type": "string"
+        },
+        "avoidTopics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allowedValues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

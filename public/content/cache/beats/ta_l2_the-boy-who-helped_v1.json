@@ -1,0 +1,140 @@
+{
+  "beats": [
+    {
+      "page": 1,
+      "action": "Wide view of a busy street with cars speeding by. An elderly man stands hesitant at the curb, looking anxious. A young boy, Kavin, with a red bag, is visible on the sidewalk further down the street.",
+      "environment": {
+        "notes": "Busy city street, zebra crossing visible. Cars, buses, and motorcycles in heavy traffic. Buildings line both sides of the street.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide Shot",
+        "angle": "Eye-Level",
+        "focus": "Scene"
+      },
+      "blocking": {
+        "protagonist": "Kavin standing left of frame on sidewalk",
+        "support": "Elderly man standing right of frame at curb, partially obscured by traffic"
+      }
+    },
+    {
+      "page": 2,
+      "action": "Kavin approaches the elderly man. We see their feet on the ground as Kavin reaches out and gently takes the man's hand. The elderly man looks relieved.",
+      "environment": {
+        "notes": "Close to the curb. Sounds of traffic are prominent.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Full Shot",
+        "angle": "Eye-Level",
+        "focus": "Characters"
+      },
+      "blocking": {
+        "protagonist": "Kavin approaching from the left, placing hand on Thatha's right hand",
+        "support": "Thatha standing still on the right, facing the road"
+      }
+    },
+    {
+      "page": 3,
+      "action": "Wide shot showing Kavin and the elderly man starting to walk across the zebra crossing. Cars are beginning to slow down.",
+      "environment": {
+        "notes": "Zebra crossing is visible. Cars are stopping. The sun casts shadows of both characters on the road.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide Shot",
+        "angle": "Eye-Level",
+        "focus": "Scene"
+      },
+      "blocking": {
+        "protagonist": "Kavin on the left, leading Thatha",
+        "support": "Thatha on the right, walking slowly"
+      }
+    },
+    {
+      "page": 4,
+      "action": "Full shot of Kavin and the elderly man walking across the crosswalk. Cars are stopped, waiting for them to cross. Drivers are visible in their cars, observing them.",
+      "environment": {
+        "notes": "Cars stopped. Shadows of Kavin and Thatha are long.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Full Shot",
+        "angle": "Eye-Level",
+        "focus": "Characters"
+      },
+      "blocking": {
+        "protagonist": "Kavin walking left, Thatha walking next to him",
+        "support": "Cars stopped, drivers visible in their cars."
+      }
+    },
+    {
+      "page": 5,
+      "action": "Wide shot of the street with the cars stopped and the two crossing.",
+      "environment": {
+        "notes": "Very similar to page 3, just a bit further along.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide Shot",
+        "angle": "Eye-Level",
+        "focus": "Scene"
+      },
+      "blocking": {
+        "protagonist": "Kavin is on the left of Thatha in the frame",
+        "support": "Traffic stopped"
+      }
+    },
+    {
+      "page": 6,
+      "action": "Full shot of them safely on the other side. Kavin is turning to say goodbye.",
+      "environment": {
+        "notes": "Sidewalk on the other side of the street. Less noise than before.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Full Shot",
+        "angle": "Eye-Level",
+        "focus": "Characters"
+      },
+      "blocking": {
+        "protagonist": "Kavin standing left, turning to face Thatha",
+        "support": "Thatha standing right, looking grateful"
+      }
+    },
+    {
+      "page": 7,
+      "action": "Wide shot of the location with Kavin leaving",
+      "environment": {
+        "notes": "Sidewalk, still sunny.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Wide Shot",
+        "angle": "Eye-Level",
+        "focus": "Scene"
+      },
+      "blocking": {
+        "protagonist": "Walking away left of frame",
+        "support": "Thatha standing right of frame"
+      }
+    },
+    {
+      "page": 8,
+      "action": "Full shot of Thatha as Kavin says goodbye.",
+      "environment": {
+        "notes": "Sidewalk, still sunny.",
+        "timeOfDay": "Morning"
+      },
+      "camera": {
+        "shotType": "Full Shot",
+        "angle": "Eye-Level",
+        "focus": "Characters"
+      },
+      "blocking": {
+        "protagonist": "Kavin standing far left",
+        "support": "Thatha right"
+      }
+    }
+  ]
+}

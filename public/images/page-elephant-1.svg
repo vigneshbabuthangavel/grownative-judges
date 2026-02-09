@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="900" height="520" fill="#FFF7ED"/>
+<circle cx="320" cy="280" r="140" fill="#FED7AA"/>
+<circle cx="410" cy="210" r="70" fill="#FED7AA"/>
+<text x="520" y="180" font-size="34" font-family="Arial" fill="#111">🐘</text>
+<text x="520" y="240" font-size="24" font-family="Arial" fill="#111">Friendly Elephant</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#FEF3C7"/>
+<rect x="60" y="210" width="520" height="40" rx="20" fill="#A16207"/>
+<rect x="120" y="150" width="400" height="16" rx="8" fill="#111"/>
+<circle cx="160" cy="190" r="22" fill="#111"/>
+<circle cx="480" cy="190" r="22" fill="#111"/>
+<text x="60" y="80" font-size="28" font-family="Arial" fill="#111">Level 7</text>
+<text x="60" y="115" font-size="22" font-family="Arial" fill="#111">The Bridge of Kindness</text>
+</svg>
