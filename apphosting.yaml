@@ -1,0 +1,14 @@
+# Firebase App Hosting Configuration
+# Documentation: https://firebase.google.com/docs/app-hosting/configure
+
+env:
+  # Non-sensitive variables can be placed here
+  - variable: GCS_BUCKET_NAME
+    value: grownative-stories
+  - variable: NEXT_PUBLIC_GCS_BUCKET_NAME
+    value: grownative-stories
+
+  # Sensitive secrets should be managed in the Firebase Console (Dashboard)
+  # or referenced from Cloud Secret Manager like this:
+  # - variable: GEMINI_API_KEY
+  #   secret: GEMINI_API_KEY
